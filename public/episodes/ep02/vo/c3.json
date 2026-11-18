@@ -1,0 +1,42 @@
+{
+ "key": "9b680a2e25f3",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Okay Mama... I go send am.",
+ "duration": 1.508,
+ "words": [
+  {
+   "w": "Okay",
+   "start": 0.0,
+   "end": 0.269
+  },
+  {
+   "w": "Mama",
+   "start": 0.302,
+   "end": 0.55
+  },
+  {
+   "w": "I",
+   "start": 0.83,
+   "end": 0.948
+  },
+  {
+   "w": "go",
+   "start": 1.002,
+   "end": 1.11
+  },
+  {
+   "w": "send",
+   "start": 1.153,
+   "end": 1.368
+  },
+  {
+   "w": "am",
+   "start": 1.39,
+   "end": 1.573
+  }
+ ]
+}

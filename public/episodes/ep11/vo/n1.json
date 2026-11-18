@@ -1,0 +1,67 @@
+{
+ "key": "1621123762f6",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Minus two degrees... and the bus is twenty five minutes late!",
+ "duration": 3.027,
+ "words": [
+  {
+   "w": "Minus",
+   "start": 0.0,
+   "end": 0.364
+  },
+  {
+   "w": "two",
+   "start": 0.409,
+   "end": 0.5
+  },
+  {
+   "w": "degrees",
+   "start": 0.557,
+   "end": 1.0
+  },
+  {
+   "w": "and",
+   "start": 1.25,
+   "end": 1.352
+  },
+  {
+   "w": "the",
+   "start": 1.398,
+   "end": 1.455
+  },
+  {
+   "w": "bus",
+   "start": 1.534,
+   "end": 1.705
+  },
+  {
+   "w": "is",
+   "start": 1.739,
+   "end": 1.841
+  },
+  {
+   "w": "twenty",
+   "start": 1.886,
+   "end": 2.148
+  },
+  {
+   "w": "five",
+   "start": 2.182,
+   "end": 2.42
+  },
+  {
+   "w": "minutes",
+   "start": 2.455,
+   "end": 2.761
+  },
+  {
+   "w": "late",
+   "start": 2.773,
+   "end": 3.045
+  }
+ ]
+}

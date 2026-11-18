@@ -1,0 +1,388 @@
+{
+  "id": "ep09",
+  "title": "Tunde Stayed… and Just Bought a Car",
+  "hook": "The cousin who stayed… just bought a car. Cash!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-tunde",
+      "label": "Lagos street, Tunde shows off",
+      "environment": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 2
+      },
+      "music": "lagos",
+      "ambience": "street",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 126,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "tunde",
+          "x": 124,
+          "facing": "right",
+          "pose": "happy",
+          "poses": [
+            {
+              "at": "t1",
+              "pose": "phone"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "The cousin who stayed… just bought a car. Cash!",
+          "say": "The cousin who stayed... just bought a car. Cash!",
+          "highlight": [
+            "car.",
+            "Cash!"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "t1",
+          "speaker": "tunde",
+          "text": "Chinedu! Come see my new ride!",
+          "highlight": [
+            "ride!"
+          ],
+          "emotion": "happy"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "TUNDE DON BUY CAR!",
+          "sub": "CASH. NO LOAN.",
+          "at": 0,
+          "dur": 2.3
+        },
+        {
+          "kind": "money",
+          "label": "CAR (TOKUNBO)",
+          "currency": "₦",
+          "from": 0,
+          "to": 4500000,
+          "at": "t1",
+          "dur": 2.6
+        }
+      ]
+    },
+    {
+      "id": "s2-busstop",
+      "label": "London bus stop in the rain, Chinedu on the call",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "props": [
+          "splash"
+        ],
+        "seed": 7
+      },
+      "music": "london",
+      "ambience": "rain",
+      "transition": "flash",
+      "lead": 2.7,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 150,
+          "y": 196,
+          "zoom": 1.25
+        },
+        "to": {
+          "x": 156,
+          "y": 214,
+          "zoom": 1.6
+        },
+        "ease": "inOut",
+        "shakeAt": [
+          2.3
+        ]
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 156,
+          "facing": "left",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": 2.25,
+              "pose": "shocked"
+            },
+            {
+              "at": "c1",
+              "pose": "sad"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Me? I still dey wait for bus… for rain.",
+          "say": "Me? I still dey wait for bus... for rain.",
+          "highlight": [
+            "bus…",
+            "rain."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "sfx",
+          "name": "splash",
+          "at": 2.25
+        },
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "sweat",
+          "at": "c1",
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s3-twist",
+      "label": "Lagos street, the road ahead",
+      "environment": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 5
+      },
+      "music": "lagos",
+      "ambience": "street",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 126,
+          "y": 212,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "tunde",
+          "x": 124,
+          "facing": "right",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "n2",
+              "pose": "happy"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "t2",
+          "speaker": "tunde",
+          "text": "Na tokunbo o… and the road still bad!",
+          "say": "Na tokunbo oh... and the road still bad!",
+          "highlight": [
+            "tokunbo",
+            "bad!"
+          ],
+          "holdAfter": 0.15
+        },
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "Second-hand car, bad road… but both of them dey laugh.",
+          "say": "Second-hand car, bad road... but both of them dey laugh.",
+          "highlight": [
+            "laugh."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "stats",
+          "at": "n2",
+          "dur": 2.4,
+          "stats": [
+            {
+              "label": "PEACE",
+              "from": 50,
+              "to": 85,
+              "color": "#16A266"
+            },
+            {
+              "label": "ROAD",
+              "from": 40,
+              "to": 15,
+              "color": "#E8473A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-decision",
+      "label": "Split screen: Chinedu in London, Tunde in Lagos",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 7
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 146,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 146,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 150,
+          "facing": "left",
+          "pose": "thinking"
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? JAPA or STAY?",
+          "say": "If na you, wetin you go do? Japa... or stay?",
+          "highlight": [
+            "JAPA",
+            "STAY?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "JAPA or STAY?",
+          "a": "JAPA: Chinedu's London life",
+          "b": "STAY: Tunde's Lagos life",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 2,
+        "cast": [
+          {
+            "who": "tunde",
+            "x": 128,
+            "facing": "right",
+            "pose": "happy"
+          }
+        ],
+        "label": "LAGOS"
+      },
+      "leftLabel": "LONDON",
+      "splitCamera": {
+        "from": {
+          "x": 128,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 128,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

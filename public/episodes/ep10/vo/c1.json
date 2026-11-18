@@ -1,0 +1,42 @@
+{
+ "key": "b149b854e5e4",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Yes Mama... yes Mama... yes Mama.",
+ "duration": 1.851,
+ "words": [
+  {
+   "w": "Yes",
+   "start": 0.0,
+   "end": 0.259
+  },
+  {
+   "w": "Mama",
+   "start": 0.28,
+   "end": 0.55
+  },
+  {
+   "w": "yes",
+   "start": 0.765,
+   "end": 0.97
+  },
+  {
+   "w": "Mama",
+   "start": 0.991,
+   "end": 1.261
+  },
+  {
+   "w": "yes",
+   "start": 1.455,
+   "end": 1.649
+  },
+  {
+   "w": "Mama",
+   "start": 1.681,
+   "end": 1.907
+  }
+ ]
+}

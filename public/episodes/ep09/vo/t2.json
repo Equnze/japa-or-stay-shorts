@@ -1,0 +1,52 @@
+{
+ "key": "7003ff5ba037",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+8%",
+  "pitch": "-2Hz"
+ },
+ "say": "Na tokunbo oh... and the road still bad!",
+ "duration": 2.089,
+ "words": [
+  {
+   "w": "Na",
+   "start": 0.0,
+   "end": 0.162
+  },
+  {
+   "w": "tokunbo",
+   "start": 0.22,
+   "end": 0.706
+  },
+  {
+   "w": "oh",
+   "start": 0.718,
+   "end": 0.88
+  },
+  {
+   "w": "and",
+   "start": 1.134,
+   "end": 1.238
+  },
+  {
+   "w": "the",
+   "start": 1.296,
+   "end": 1.366
+  },
+  {
+   "w": "road",
+   "start": 1.412,
+   "end": 1.586
+  },
+  {
+   "w": "still",
+   "start": 1.632,
+   "end": 1.84
+  },
+  {
+   "w": "bad",
+   "start": 1.898,
+   "end": 2.118
+  }
+ ]
+}

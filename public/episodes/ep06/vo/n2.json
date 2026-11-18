@@ -1,0 +1,42 @@
+{
+ "key": "dedd55da8d0b",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Her own visa fit take months.",
+ "duration": 1.444,
+ "words": [
+  {
+   "w": "Her",
+   "start": 0.0,
+   "end": 0.227
+  },
+  {
+   "w": "own",
+   "start": 0.284,
+   "end": 0.432
+  },
+  {
+   "w": "visa",
+   "start": 0.489,
+   "end": 0.705
+  },
+  {
+   "w": "fit",
+   "start": 0.727,
+   "end": 0.909
+  },
+  {
+   "w": "take",
+   "start": 0.966,
+   "end": 1.114
+  },
+  {
+   "w": "months",
+   "start": 1.159,
+   "end": 1.557
+  }
+ ]
+}

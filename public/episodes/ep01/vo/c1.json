@@ -1,0 +1,42 @@
+{
+ "key": "fac813f3c74b",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Lagos, bye-bye! London, here I come!",
+ "duration": 2.436,
+ "words": [
+  {
+   "w": "Lagos",
+   "start": 0.0,
+   "end": 0.517
+  },
+  {
+   "w": "bye-bye",
+   "start": 0.744,
+   "end": 1.067
+  },
+  {
+   "w": "London",
+   "start": 1.347,
+   "end": 1.767
+  },
+  {
+   "w": "here",
+   "start": 1.994,
+   "end": 2.134
+  },
+  {
+   "w": "I",
+   "start": 2.134,
+   "end": 2.231
+  },
+  {
+   "w": "come",
+   "start": 2.284,
+   "end": 2.522
+  }
+ ]
+}

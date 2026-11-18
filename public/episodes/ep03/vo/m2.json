@@ -1,0 +1,37 @@
+{
+ "key": "a0f8f281f147",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "Ah! This cold na punishment!",
+ "duration": 1.715,
+ "words": [
+  {
+   "w": "Ah",
+   "start": 0.0,
+   "end": 0.159
+  },
+  {
+   "w": "This",
+   "start": 0.439,
+   "end": 0.689
+  },
+  {
+   "w": "cold",
+   "start": 0.746,
+   "end": 0.928
+  },
+  {
+   "w": "na",
+   "start": 0.951,
+   "end": 1.064
+  },
+  {
+   "w": "punishment",
+   "start": 1.133,
+   "end": 1.655
+  }
+ ]
+}

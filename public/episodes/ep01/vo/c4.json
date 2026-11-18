@@ -1,0 +1,42 @@
+{
+ "key": "900ed54dbbd0",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Mama... network dey break! Hello? Hello?",
+ "duration": 2.53,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.356
+  },
+  {
+   "w": "network",
+   "start": 0.571,
+   "end": 0.905
+  },
+  {
+   "w": "dey",
+   "start": 0.991,
+   "end": 1.078
+  },
+  {
+   "w": "break",
+   "start": 1.142,
+   "end": 1.401
+  },
+  {
+   "w": "Hello",
+   "start": 1.681,
+   "end": 1.983
+  },
+  {
+   "w": "Hello",
+   "start": 2.263,
+   "end": 2.565
+  }
+ ]
+}

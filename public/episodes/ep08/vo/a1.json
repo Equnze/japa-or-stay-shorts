@@ -1,0 +1,42 @@
+{
+ "key": "8c7ce5ee0297",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "+0Hz"
+ },
+ "say": "Chi-ne-du. Did I say it right?",
+ "duration": 1.814,
+ "words": [
+  {
+   "w": "Chi-ne-du",
+   "start": 0.0,
+   "end": 0.58
+  },
+  {
+   "w": "Did",
+   "start": 0.818,
+   "end": 0.932
+  },
+  {
+   "w": "I",
+   "start": 0.932,
+   "end": 1.034
+  },
+  {
+   "w": "say",
+   "start": 1.08,
+   "end": 1.25
+  },
+  {
+   "w": "it",
+   "start": 1.318,
+   "end": 1.466
+  },
+  {
+   "w": "right",
+   "start": 1.523,
+   "end": 1.739
+  }
+ ]
+}

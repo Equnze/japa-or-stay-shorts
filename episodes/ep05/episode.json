@@ -1,0 +1,441 @@
+{
+  "id": "ep05",
+  "title": "She Said \"Japa With Me or Lose Me\"",
+  "hook": "She got the visa… he didn't.",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-news",
+      "label": "Lagos street at night, Amaka's news",
+      "environment": {
+        "type": "lagosStreet",
+        "timeOfDay": "night",
+        "seed": 3
+      },
+      "music": "lagos",
+      "ambience": "street",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 126,
+          "y": 212,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 126,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "amaka",
+          "x": 112,
+          "facing": "right",
+          "pose": "happy",
+          "poses": [
+            {
+              "at": "c1",
+              "pose": "talk"
+            }
+          ]
+        },
+        {
+          "who": "chinedu",
+          "x": 140,
+          "facing": "left",
+          "pose": "idle",
+          "poses": [
+            {
+              "at": "a1",
+              "pose": "shocked"
+            },
+            {
+              "at": "c1",
+              "pose": "sad"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "She got the visa… he didn't.",
+          "say": "She got the visa... he didn't.",
+          "highlight": [
+            "visa…",
+            "didn't."
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "a1",
+          "speaker": "amaka",
+          "text": "Chinedu! My UK visa don come out!",
+          "highlight": [
+            "visa"
+          ],
+          "emotion": "happy",
+          "holdAfter": 0.1
+        },
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Congrats… but wetin about us?",
+          "say": "Congrats... but wetin about us?",
+          "highlight": [
+            "us?"
+          ],
+          "emotion": "sad"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "VISA APPROVED…",
+          "sub": "FOR ONLY ONE OF THEM",
+          "at": 0,
+          "dur": 2.4
+        }
+      ]
+    },
+    {
+      "id": "s2-ultimatum",
+      "label": "Amaka's family living room, the big talk",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "evening",
+        "seed": 2
+      },
+      "music": "tension",
+      "ambience": "home",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 116,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 118,
+          "y": 212,
+          "zoom": 1.65
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "amaka",
+          "x": 100,
+          "facing": "right",
+          "pose": "talk"
+        },
+        {
+          "who": "chinedu",
+          "x": 134,
+          "facing": "left",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "a2",
+          "speaker": "amaka",
+          "text": "Japa with me… or lose me.",
+          "say": "Japa with me... or lose me.",
+          "highlight": [
+            "Japa",
+            "lose"
+          ],
+          "holdAfter": 0.15
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "My work, my Mama, everything dey here!",
+          "highlight": [
+            "everything"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "!!",
+          "at": "a2",
+          "dur": 1.1
+        },
+        {
+          "kind": "stats",
+          "at": "c2",
+          "dur": 2.4,
+          "stats": [
+            {
+              "label": "LOVE",
+              "from": 95,
+              "to": 95,
+              "color": "#E8473A"
+            },
+            {
+              "label": "CLARITY",
+              "from": 60,
+              "to": 10,
+              "color": "#6577E8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-gate",
+      "label": "Lagos airport, departures gate",
+      "environment": {
+        "type": "airport",
+        "timeOfDay": "day",
+        "props": [
+          "plane"
+        ],
+        "seed": 3
+      },
+      "music": "lagos",
+      "ambience": "airport",
+      "transition": "flash",
+      "lead": 0.3,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 118,
+          "y": 200,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 120,
+          "y": 212,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "amaka",
+          "x": 104,
+          "facing": "right",
+          "pose": "talk",
+          "poses": [
+            {
+              "at": "n2",
+              "pose": "idle"
+            },
+            {
+              "at": "a3",
+              "pose": "talk"
+            }
+          ]
+        },
+        {
+          "who": "chinedu",
+          "x": 134,
+          "facing": "left",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "a3",
+              "pose": "shocked"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "At the gate… she gave him one envelope.",
+          "say": "At the gate... she gave him one envelope.",
+          "highlight": [
+            "envelope."
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "a3",
+          "speaker": "amaka",
+          "text": "Your own visa application. Fill am!",
+          "highlight": [
+            "application.",
+            "Fill"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "!",
+          "at": "a3",
+          "dur": 1.4
+        },
+        {
+          "kind": "sfx",
+          "name": "chime",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "id": "s4-decision",
+      "label": "Split screen: Amaka in London, Chinedu in Lagos",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 7
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 146,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 146,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "amaka",
+          "x": 150,
+          "facing": "left",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "n8",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? JAPA or STAY?",
+          "say": "If na you, wetin you go do? Japa... or stay?",
+          "highlight": [
+            "JAPA",
+            "STAY?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "JAPA or STAY?",
+          "a": "JAPA: fill the form, follow her",
+          "b": "STAY: build his life in Lagos",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 2,
+        "cast": [
+          {
+            "who": "chinedu",
+            "x": 128,
+            "facing": "right",
+            "pose": "thinking"
+          }
+        ],
+        "label": "LAGOS"
+      },
+      "leftLabel": "LONDON",
+      "splitCamera": {
+        "from": {
+          "x": 128,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 128,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

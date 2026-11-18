@@ -1,0 +1,42 @@
+{
+ "key": "7017753886c7",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Ehn! Even my secondary school classmate?",
+ "duration": 2.034,
+ "words": [
+  {
+   "w": "Ehn",
+   "start": 0.0,
+   "end": 0.216
+  },
+  {
+   "w": "Even",
+   "start": 0.496,
+   "end": 0.722
+  },
+  {
+   "w": "my",
+   "start": 0.733,
+   "end": 0.852
+  },
+  {
+   "w": "secondary",
+   "start": 0.862,
+   "end": 1.24
+  },
+  {
+   "w": "school",
+   "start": 1.261,
+   "end": 1.477
+  },
+  {
+   "w": "classmate",
+   "start": 1.541,
+   "end": 2.037
+  }
+ ]
+}

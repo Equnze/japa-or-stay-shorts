@@ -1,0 +1,47 @@
+{
+ "key": "bf94fba6f21a",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "You go leave me after our wedding?",
+ "duration": 1.504,
+ "words": [
+  {
+   "w": "You",
+   "start": 0.0,
+   "end": 0.143
+  },
+  {
+   "w": "go",
+   "start": 0.208,
+   "end": 0.307
+  },
+  {
+   "w": "leave",
+   "start": 0.329,
+   "end": 0.526
+  },
+  {
+   "w": "me",
+   "start": 0.548,
+   "end": 0.669
+  },
+  {
+   "w": "after",
+   "start": 0.724,
+   "end": 0.987
+  },
+  {
+   "w": "our",
+   "start": 1.042,
+   "end": 1.184
+  },
+  {
+   "w": "wedding",
+   "start": 1.228,
+   "end": 1.48
+  }
+ ]
+}

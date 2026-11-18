@@ -1,0 +1,67 @@
+{
+ "key": "825916099453",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Day nine... the biggest bill na the money he send home.",
+ "duration": 2.333,
+ "words": [
+  {
+   "w": "Day",
+   "start": 0.0,
+   "end": 0.216
+  },
+  {
+   "w": "nine",
+   "start": 0.239,
+   "end": 0.511
+  },
+  {
+   "w": "the",
+   "start": 0.773,
+   "end": 0.83
+  },
+  {
+   "w": "biggest",
+   "start": 0.898,
+   "end": 1.148
+  },
+  {
+   "w": "bill",
+   "start": 1.205,
+   "end": 1.33
+  },
+  {
+   "w": "na",
+   "start": 1.341,
+   "end": 1.443
+  },
+  {
+   "w": "the",
+   "start": 1.489,
+   "end": 1.545
+  },
+  {
+   "w": "money",
+   "start": 1.568,
+   "end": 1.795
+  },
+  {
+   "w": "he",
+   "start": 1.852,
+   "end": 1.932
+  },
+  {
+   "w": "send",
+   "start": 1.966,
+   "end": 2.182
+  },
+  {
+   "w": "home",
+   "start": 2.205,
+   "end": 2.443
+  }
+ ]
+}

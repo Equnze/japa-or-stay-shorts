@@ -1,0 +1,4 @@
+node_modules
+out
+public/episodes/*/vo/.cache
+public/episodes/*/mix.wav

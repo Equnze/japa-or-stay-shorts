@@ -1,0 +1,47 @@
+{
+ "key": "96997900f70a",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "My son! How London? You don hammer?",
+ "duration": 2.277,
+ "words": [
+  {
+   "w": "My",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "son",
+   "start": 0.216,
+   "end": 0.466
+  },
+  {
+   "w": "How",
+   "start": 0.746,
+   "end": 0.916
+  },
+  {
+   "w": "London",
+   "start": 0.939,
+   "end": 1.314
+  },
+  {
+   "w": "You",
+   "start": 1.594,
+   "end": 1.731
+  },
+  {
+   "w": "don",
+   "start": 1.799,
+   "end": 1.946
+  },
+  {
+   "w": "hammer",
+   "start": 1.981,
+   "end": 2.287
+  }
+ ]
+}

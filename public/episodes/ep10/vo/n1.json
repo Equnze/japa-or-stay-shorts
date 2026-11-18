@@ -1,0 +1,52 @@
+{
+ "key": "48d8847a3d3e",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Every Sunday, six P M... Mama get agenda!",
+ "duration": 2.771,
+ "words": [
+  {
+   "w": "Every",
+   "start": 0.0,
+   "end": 0.25
+  },
+  {
+   "w": "Sunday",
+   "start": 0.273,
+   "end": 0.67
+  },
+  {
+   "w": "six",
+   "start": 0.943,
+   "end": 1.205
+  },
+  {
+   "w": "P",
+   "start": 1.261,
+   "end": 1.375
+  },
+  {
+   "w": "M",
+   "start": 1.443,
+   "end": 1.648
+  },
+  {
+   "w": "Mama",
+   "start": 1.928,
+   "end": 2.156
+  },
+  {
+   "w": "get",
+   "start": 2.235,
+   "end": 2.417
+  },
+  {
+   "w": "agenda",
+   "start": 2.428,
+   "end": 2.803
+  }
+ ]
+}

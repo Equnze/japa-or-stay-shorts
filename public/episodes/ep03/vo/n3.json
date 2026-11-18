@@ -1,0 +1,52 @@
+{
+ "key": "93cda5476935",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Then she opened her bag... pepper, stockfish, garri!",
+ "duration": 3.025,
+ "words": [
+  {
+   "w": "Then",
+   "start": 0.0,
+   "end": 0.25
+  },
+  {
+   "w": "she",
+   "start": 0.261,
+   "end": 0.42
+  },
+  {
+   "w": "opened",
+   "start": 0.489,
+   "end": 0.795
+  },
+  {
+   "w": "her",
+   "start": 0.818,
+   "end": 0.966
+  },
+  {
+   "w": "bag",
+   "start": 1.034,
+   "end": 1.25
+  },
+  {
+   "w": "pepper",
+   "start": 1.53,
+   "end": 1.859
+  },
+  {
+   "w": "stockfish",
+   "start": 1.995,
+   "end": 2.598
+  },
+  {
+   "w": "garri",
+   "start": 2.802,
+   "end": 3.064
+  }
+ ]
+}

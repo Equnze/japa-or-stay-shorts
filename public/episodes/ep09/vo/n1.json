@@ -1,0 +1,57 @@
+{
+ "key": "b9d121dd4300",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "The cousin who stayed... just bought a car. Cash!",
+ "duration": 2.478,
+ "words": [
+  {
+   "w": "The",
+   "start": 0.0,
+   "end": 0.148
+  },
+  {
+   "w": "cousin",
+   "start": 0.205,
+   "end": 0.477
+  },
+  {
+   "w": "who",
+   "start": 0.477,
+   "end": 0.591
+  },
+  {
+   "w": "stayed",
+   "start": 0.625,
+   "end": 0.886
+  },
+  {
+   "w": "just",
+   "start": 1.166,
+   "end": 1.337
+  },
+  {
+   "w": "bought",
+   "start": 1.394,
+   "end": 1.553
+  },
+  {
+   "w": "a",
+   "start": 1.553,
+   "end": 1.587
+  },
+  {
+   "w": "car",
+   "start": 1.655,
+   "end": 1.837
+  },
+  {
+   "w": "Cash",
+   "start": 2.117,
+   "end": 2.526
+  }
+ ]
+}

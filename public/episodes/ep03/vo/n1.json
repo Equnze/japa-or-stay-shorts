@@ -1,0 +1,57 @@
+{
+ "key": "a341089a2766",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Mama don japa to London... and she told nobody!",
+ "duration": 2.402,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.273
+  },
+  {
+   "w": "don",
+   "start": 0.33,
+   "end": 0.466
+  },
+  {
+   "w": "japa",
+   "start": 0.511,
+   "end": 0.75
+  },
+  {
+   "w": "to",
+   "start": 0.807,
+   "end": 0.886
+  },
+  {
+   "w": "London",
+   "start": 0.909,
+   "end": 1.307
+  },
+  {
+   "w": "and",
+   "start": 1.568,
+   "end": 1.693
+  },
+  {
+   "w": "she",
+   "start": 1.705,
+   "end": 1.841
+  },
+  {
+   "w": "told",
+   "start": 1.909,
+   "end": 2.08
+  },
+  {
+   "w": "nobody",
+   "start": 2.102,
+   "end": 2.455
+  }
+ ]
+}

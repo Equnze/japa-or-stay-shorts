@@ -1,0 +1,22 @@
+{
+ "key": "01dcafd05be4",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Mama... soon.",
+ "duration": 0.734,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.312
+  },
+  {
+   "w": "soon",
+   "start": 0.496,
+   "end": 0.754
+  }
+ ]
+}

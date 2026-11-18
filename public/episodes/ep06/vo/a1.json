@@ -1,0 +1,42 @@
+{
+ "key": "eccfd0572fb8",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Na so? We go japa together!",
+ "duration": 1.666,
+ "words": [
+  {
+   "w": "Na",
+   "start": 0.0,
+   "end": 0.175
+  },
+  {
+   "w": "so",
+   "start": 0.219,
+   "end": 0.428
+  },
+  {
+   "w": "We",
+   "start": 0.708,
+   "end": 0.796
+  },
+  {
+   "w": "go",
+   "start": 0.862,
+   "end": 0.961
+  },
+  {
+   "w": "japa",
+   "start": 1.015,
+   "end": 1.213
+  },
+  {
+   "w": "together",
+   "start": 1.279,
+   "end": 1.629
+  }
+ ]
+}

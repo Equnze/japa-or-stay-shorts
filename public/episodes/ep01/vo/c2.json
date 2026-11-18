@@ -1,0 +1,52 @@
+{
+ "key": "fb52ab354b48",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Ehn! Na one small room I rent oh!",
+ "duration": 1.784,
+ "words": [
+  {
+   "w": "Ehn",
+   "start": 0.0,
+   "end": 0.216
+  },
+  {
+   "w": "Na",
+   "start": 0.496,
+   "end": 0.679
+  },
+  {
+   "w": "one",
+   "start": 0.744,
+   "end": 0.873
+  },
+  {
+   "w": "small",
+   "start": 0.938,
+   "end": 1.132
+  },
+  {
+   "w": "room",
+   "start": 1.164,
+   "end": 1.315
+  },
+  {
+   "w": "I",
+   "start": 1.315,
+   "end": 1.423
+  },
+  {
+   "w": "rent",
+   "start": 1.477,
+   "end": 1.638
+  },
+  {
+   "w": "oh",
+   "start": 1.681,
+   "end": 1.789
+  }
+ ]
+}

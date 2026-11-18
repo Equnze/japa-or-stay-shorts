@@ -1,0 +1,47 @@
+{
+ "key": "9955c4e3d1a9",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Nobody warned him... London no be beans!",
+ "duration": 2.127,
+ "words": [
+  {
+   "w": "Nobody",
+   "start": 0.0,
+   "end": 0.375
+  },
+  {
+   "w": "warned",
+   "start": 0.443,
+   "end": 0.625
+  },
+  {
+   "w": "him",
+   "start": 0.659,
+   "end": 0.875
+  },
+  {
+   "w": "London",
+   "start": 1.155,
+   "end": 1.496
+  },
+  {
+   "w": "no",
+   "start": 1.507,
+   "end": 1.621
+  },
+  {
+   "w": "be",
+   "start": 1.678,
+   "end": 1.746
+  },
+  {
+   "w": "beans",
+   "start": 1.803,
+   "end": 2.189
+  }
+ ]
+}

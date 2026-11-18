@@ -1,0 +1,47 @@
+{
+ "key": "ede960788fc2",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Comment A or B! Follow for Part 2!",
+ "duration": 1.953,
+ "words": [
+  {
+   "w": "Comment",
+   "start": 0.0,
+   "end": 0.375
+  },
+  {
+   "w": "A",
+   "start": 0.386,
+   "end": 0.477
+  },
+  {
+   "w": "or",
+   "start": 0.511,
+   "end": 0.625
+  },
+  {
+   "w": "B",
+   "start": 0.682,
+   "end": 0.795
+  },
+  {
+   "w": "Follow",
+   "start": 1.075,
+   "end": 1.371
+  },
+  {
+   "w": "for",
+   "start": 1.405,
+   "end": 1.53
+  },
+  {
+   "w": "Part 2",
+   "start": 1.621,
+   "end": 1.996
+  }
+ ]
+}

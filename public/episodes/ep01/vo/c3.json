@@ -1,0 +1,52 @@
+{
+ "key": "79e2166517d7",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Mama... London sweet die! Everything dey go well.",
+ "duration": 2.522,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.291
+  },
+  {
+   "w": "London",
+   "start": 0.571,
+   "end": 0.905
+  },
+  {
+   "w": "sweet",
+   "start": 0.948,
+   "end": 1.099
+  },
+  {
+   "w": "die",
+   "start": 1.163,
+   "end": 1.336
+  },
+  {
+   "w": "Everything",
+   "start": 1.616,
+   "end": 2.047
+  },
+  {
+   "w": "dey",
+   "start": 2.09,
+   "end": 2.155
+  },
+  {
+   "w": "go",
+   "start": 2.219,
+   "end": 2.316
+  },
+  {
+   "w": "well",
+   "start": 2.381,
+   "end": 2.564
+  }
+ ]
+}

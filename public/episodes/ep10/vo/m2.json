@@ -1,0 +1,42 @@
+{
+ "key": "3073e317c8b8",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "When you dey come back home?",
+ "duration": 1.084,
+ "words": [
+  {
+   "w": "When",
+   "start": 0.0,
+   "end": 0.159
+  },
+  {
+   "w": "you",
+   "start": 0.239,
+   "end": 0.284
+  },
+  {
+   "w": "dey",
+   "start": 0.352,
+   "end": 0.432
+  },
+  {
+   "w": "come",
+   "start": 0.5,
+   "end": 0.648
+  },
+  {
+   "w": "back",
+   "start": 0.716,
+   "end": 0.886
+  },
+  {
+   "w": "home",
+   "start": 0.909,
+   "end": 1.057
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "key": "37449a3d095e",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "Surprise na surprise! My son go happy!",
+ "duration": 2.461,
+ "words": [
+  {
+   "w": "Surprise",
+   "start": 0.0,
+   "end": 0.5
+  },
+  {
+   "w": "na",
+   "start": 0.523,
+   "end": 0.648
+  },
+  {
+   "w": "surprise",
+   "start": 0.648,
+   "end": 1.227
+  },
+  {
+   "w": "My",
+   "start": 1.507,
+   "end": 1.7
+  },
+  {
+   "w": "son",
+   "start": 1.734,
+   "end": 1.973
+  },
+  {
+   "w": "go",
+   "start": 2.03,
+   "end": 2.121
+  },
+  {
+   "w": "happy",
+   "start": 2.155,
+   "end": 2.439
+  }
+ ]
+}

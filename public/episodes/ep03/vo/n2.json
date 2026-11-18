@@ -1,0 +1,37 @@
+{
+ "key": "729e509f7369",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "London welcomed her... with rain.",
+ "duration": 1.571,
+ "words": [
+  {
+   "w": "London",
+   "start": 0.0,
+   "end": 0.318
+  },
+  {
+   "w": "welcomed",
+   "start": 0.398,
+   "end": 0.716
+  },
+  {
+   "w": "her",
+   "start": 0.75,
+   "end": 0.955
+  },
+  {
+   "w": "with",
+   "start": 1.17,
+   "end": 1.352
+  },
+  {
+   "w": "rain",
+   "start": 1.398,
+   "end": 1.636
+  }
+ ]
+}

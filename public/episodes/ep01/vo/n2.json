@@ -1,0 +1,47 @@
+{
+ "key": "7f5e3cb1ffe9",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "One week later... the bills start landing.",
+ "duration": 1.88,
+ "words": [
+  {
+   "w": "One",
+   "start": 0.0,
+   "end": 0.227
+  },
+  {
+   "w": "week",
+   "start": 0.273,
+   "end": 0.432
+  },
+  {
+   "w": "later",
+   "start": 0.466,
+   "end": 0.807
+  },
+  {
+   "w": "the",
+   "start": 1.034,
+   "end": 1.102
+  },
+  {
+   "w": "bills",
+   "start": 1.17,
+   "end": 1.364
+  },
+  {
+   "w": "start",
+   "start": 1.364,
+   "end": 1.591
+  },
+  {
+   "w": "landing",
+   "start": 1.625,
+   "end": 1.989
+  }
+ ]
+}

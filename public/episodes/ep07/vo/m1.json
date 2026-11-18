@@ -1,0 +1,62 @@
+{
+ "key": "03375638c7e4",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "My son, your uncle say you don forget am oh!",
+ "duration": 2.414,
+ "words": [
+  {
+   "w": "My",
+   "start": 0.0,
+   "end": 0.182
+  },
+  {
+   "w": "son",
+   "start": 0.227,
+   "end": 0.511
+  },
+  {
+   "w": "your",
+   "start": 0.791,
+   "end": 0.881
+  },
+  {
+   "w": "uncle",
+   "start": 0.927,
+   "end": 1.188
+  },
+  {
+   "w": "say",
+   "start": 1.245,
+   "end": 1.381
+  },
+  {
+   "w": "you",
+   "start": 1.438,
+   "end": 1.518
+  },
+  {
+   "w": "don",
+   "start": 1.586,
+   "end": 1.734
+  },
+  {
+   "w": "forget",
+   "start": 1.768,
+   "end": 2.177
+  },
+  {
+   "w": "am",
+   "start": 2.177,
+   "end": 2.325
+  },
+  {
+   "w": "oh",
+   "start": 2.336,
+   "end": 2.438
+  }
+ ]
+}

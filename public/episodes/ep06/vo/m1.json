@@ -1,0 +1,47 @@
+{
+ "key": "a3f3d2f1ac82",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "Go now! Your wife go follow later.",
+ "duration": 1.867,
+ "words": [
+  {
+   "w": "Go",
+   "start": 0.0,
+   "end": 0.159
+  },
+  {
+   "w": "now",
+   "start": 0.193,
+   "end": 0.398
+  },
+  {
+   "w": "Your",
+   "start": 0.678,
+   "end": 0.838
+  },
+  {
+   "w": "wife",
+   "start": 0.906,
+   "end": 1.11
+  },
+  {
+   "w": "go",
+   "start": 1.167,
+   "end": 1.247
+  },
+  {
+   "w": "follow",
+   "start": 1.281,
+   "end": 1.519
+  },
+  {
+   "w": "later",
+   "start": 1.565,
+   "end": 1.86
+  }
+ ]
+}

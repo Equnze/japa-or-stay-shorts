@@ -1,0 +1,37 @@
+{
+ "key": "8b0b7457ebb0",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Perfect! You try well well!",
+ "duration": 1.491,
+ "words": [
+  {
+   "w": "Perfect",
+   "start": 0.0,
+   "end": 0.431
+  },
+  {
+   "w": "You",
+   "start": 0.711,
+   "end": 0.851
+  },
+  {
+   "w": "try",
+   "start": 0.905,
+   "end": 1.078
+  },
+  {
+   "w": "well",
+   "start": 1.131,
+   "end": 1.261
+  },
+  {
+   "w": "well",
+   "start": 1.325,
+   "end": 1.53
+  }
+ ]
+}

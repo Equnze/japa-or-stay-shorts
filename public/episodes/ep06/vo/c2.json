@@ -1,0 +1,42 @@
+{
+ "key": "2cda79086928",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Amaka... the visa na only me.",
+ "duration": 1.564,
+ "words": [
+  {
+   "w": "Amaka",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "the",
+   "start": 0.679,
+   "end": 0.744
+  },
+  {
+   "w": "visa",
+   "start": 0.765,
+   "end": 1.024
+  },
+  {
+   "w": "na",
+   "start": 1.045,
+   "end": 1.164
+  },
+  {
+   "w": "only",
+   "start": 1.228,
+   "end": 1.422
+  },
+  {
+   "w": "me",
+   "start": 1.455,
+   "end": 1.584
+  }
+ ]
+}

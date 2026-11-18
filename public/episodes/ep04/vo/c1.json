@@ -1,0 +1,42 @@
+{
+ "key": "424a6b175326",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Lagos traffic... I really missed you.",
+ "duration": 1.797,
+ "words": [
+  {
+   "w": "Lagos",
+   "start": 0.0,
+   "end": 0.345
+  },
+  {
+   "w": "traffic",
+   "start": 0.399,
+   "end": 0.797
+  },
+  {
+   "w": "I",
+   "start": 1.077,
+   "end": 1.206
+  },
+  {
+   "w": "really",
+   "start": 1.25,
+   "end": 1.422
+  },
+  {
+   "w": "missed",
+   "start": 1.454,
+   "end": 1.659
+  },
+  {
+   "w": "you",
+   "start": 1.702,
+   "end": 1.788
+  }
+ ]
+}

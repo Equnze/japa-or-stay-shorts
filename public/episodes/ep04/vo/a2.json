@@ -1,0 +1,47 @@
+{
+ "key": "c94d58316d4f",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Since when you dey talk like oyinbo?",
+ "duration": 1.542,
+ "words": [
+  {
+   "w": "Since",
+   "start": 0.0,
+   "end": 0.307
+  },
+  {
+   "w": "when",
+   "start": 0.329,
+   "end": 0.46
+  },
+  {
+   "w": "you",
+   "start": 0.537,
+   "end": 0.581
+  },
+  {
+   "w": "dey",
+   "start": 0.647,
+   "end": 0.724
+  },
+  {
+   "w": "talk",
+   "start": 0.789,
+   "end": 0.976
+  },
+  {
+   "w": "like",
+   "start": 1.02,
+   "end": 1.184
+  },
+  {
+   "w": "oyinbo",
+   "start": 1.228,
+   "end": 1.546
+  }
+ ]
+}

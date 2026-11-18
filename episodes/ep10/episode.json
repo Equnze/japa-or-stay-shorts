@@ -1,0 +1,384 @@
+{
+  "id": "ep10",
+  "title": "Mama's Weekly Video Call Agenda",
+  "hook": "Every Sunday, 6 PM… Mama get agenda!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-agenda",
+      "label": "Mama's living room in Lagos, Sunday 6 pm",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1
+      },
+      "music": "lagos",
+      "ambience": "home",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 112,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 114,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 112,
+          "facing": "right",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "m1",
+              "pose": "talk"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "Every Sunday, 6 PM… Mama get agenda!",
+          "say": "Every Sunday, six P M... Mama get agenda!",
+          "highlight": [
+            "Sunday,",
+            "agenda!"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "m1",
+          "speaker": "mama",
+          "text": "Item one: have you eaten? Item two: are you praying?",
+          "highlight": [
+            "eaten?",
+            "praying?"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "SUNDAY, 6 PM",
+          "sub": "MAMA'S AGENDA",
+          "at": 0,
+          "dur": 2.3
+        }
+      ]
+    },
+    {
+      "id": "s2-room",
+      "label": "His London room, on the video call",
+      "environment": {
+        "type": "ukApartment",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 5
+      },
+      "music": "london",
+      "ambience": "room",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 128,
+          "y": 212,
+          "zoom": 1.65
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 124,
+          "facing": "right",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "n2",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Yes Mama… yes Mama… yes Mama.",
+          "say": "Yes Mama... yes Mama... yes Mama.",
+          "highlight": [
+            "yes"
+          ],
+          "holdAfter": 0.2
+        },
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "Then… item five.",
+          "say": "Then... item five.",
+          "highlight": [
+            "five."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "stats",
+          "at": 0.4,
+          "dur": 3.4,
+          "stats": [
+            {
+              "label": "AGENDA",
+              "from": 0,
+              "to": 80,
+              "color": "#E8A317"
+            },
+            {
+              "label": "PATIENCE",
+              "from": 90,
+              "to": 40,
+              "color": "#16A266"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-item5",
+      "label": "Mama's living room, the big question",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1
+      },
+      "music": "tension",
+      "ambience": "home",
+      "transition": "flash",
+      "lead": 0.3,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 112,
+          "y": 204,
+          "zoom": 1.55
+        },
+        "to": {
+          "x": 114,
+          "y": 214,
+          "zoom": 1.8
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 112,
+          "facing": "right",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "m2",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "m2",
+          "speaker": "mama",
+          "text": "When you dey come back home?",
+          "highlight": [
+            "home?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "Mama… soon.",
+          "say": "Mama... soon.",
+          "highlight": [
+            "soon."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "phone",
+          "caller": "CHINEDU",
+          "at": 0,
+          "answerAt": 0.3,
+          "dur": 1.5
+        },
+        {
+          "kind": "reaction",
+          "who": "mama",
+          "symbol": "?",
+          "at": "m2",
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s4-decision",
+      "label": "Split screen: his London room or Mama's house",
+      "environment": {
+        "type": "ukApartment",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 5
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 130,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 130,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "right",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "n8",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? TRUTH or SOON?",
+          "say": "If na you, wetin you go do? Tell the truth... or say soon?",
+          "highlight": [
+            "TRUTH",
+            "SOON?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "TRUTH or SOON?",
+          "a": "TRUTH: tell Mama how it really is",
+          "b": "SOON: keep saying \"soon\"",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1,
+        "cast": [
+          {
+            "who": "mama",
+            "x": 112,
+            "facing": "right",
+            "pose": "phone"
+          }
+        ],
+        "label": "HOME"
+      },
+      "leftLabel": "LONDON",
+      "splitCamera": {
+        "from": {
+          "x": 112,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 112,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "id": "ep02",
+  "title": "His First UK Salary Lasted 9 Days",
+  "hook": "Chinedu's first UK salary don land!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-payday",
+      "label": "UK workplace, pay day",
+      "environment": {
+        "type": "ukWorkplace",
+        "timeOfDay": "day",
+        "seed": 4
+      },
+      "music": "lagos",
+      "ambience": "office",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 130,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 128,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "left",
+          "pose": "happy"
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "Chinedu's first UK salary don land!",
+          "highlight": [
+            "salary"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "£2,100! I don hammer!",
+          "say": "Two thousand one hundred pounds! I don hammer!",
+          "highlight": [
+            "£2,100!",
+            "hammer!"
+          ],
+          "emotion": "happy"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "PAY DAY!",
+          "sub": "FIRST UK SALARY",
+          "at": 0,
+          "dur": 2.2
+        },
+        {
+          "kind": "money",
+          "label": "SALARY",
+          "currency": "£",
+          "from": 0,
+          "to": 2100,
+          "at": "c1",
+          "dur": 3.0
+        }
+      ]
+    },
+    {
+      "id": "s2-bills",
+      "label": "His London room, the next week",
+      "environment": {
+        "type": "ukApartment",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 5
+      },
+      "music": "london",
+      "ambience": "rain",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.4,
+      "camera": {
+        "from": {
+          "x": 128,
+          "y": 196,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 136,
+          "y": 212,
+          "zoom": 1.7
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 124,
+          "facing": "right",
+          "pose": "idle",
+          "poses": [
+            {
+              "at": 1.6,
+              "pose": "thinking"
+            },
+            {
+              "at": "c2",
+              "pose": "shocked"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "Day one, rent. Day three, bills. Day five…",
+          "say": "Day one, rent. Day three, bills. Day five...",
+          "highlight": [
+            "rent.",
+            "bills."
+          ],
+          "holdAfter": 0.9
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "Where my money dey go?!",
+          "say": "Where my money dey go?",
+          "highlight": [
+            "money"
+          ],
+          "emotion": "shocked"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "money",
+          "label": "SAVINGS",
+          "currency": "£",
+          "from": 2100,
+          "to": 680,
+          "at": 0.4,
+          "dur": 5.2,
+          "steps": [
+            {
+              "label": "RENT",
+              "amount": -900
+            },
+            {
+              "label": "ENERGY",
+              "amount": -140
+            },
+            {
+              "label": "TRANSPORT",
+              "amount": -160
+            },
+            {
+              "label": "FOOD",
+              "amount": -220
+            }
+          ]
+        },
+        {
+          "kind": "stats",
+          "at": 3.2,
+          "dur": 2.8,
+          "stats": [
+            {
+              "label": "HAPPY",
+              "from": 90,
+              "to": 45,
+              "color": "#16A266"
+            },
+            {
+              "label": "STRESS",
+              "from": 15,
+              "to": 70,
+              "color": "#E8473A"
+            }
+          ]
+        },
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "!!",
+          "at": "c2",
+          "dur": 1.2
+        }
+      ],
+      "minDuration": 6.2
+    },
+    {
+      "id": "s3-mama",
+      "label": "Mama in the family living room in Lagos, on the phone",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1
+      },
+      "music": "tension",
+      "ambience": "home",
+      "transition": "flash",
+      "lead": 0.5,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 110,
+          "y": 200,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 112,
+          "y": 214,
+          "zoom": 1.65
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 110,
+          "facing": "right",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "m2",
+              "pose": "happy"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "m1",
+          "speaker": "mama",
+          "text": "My son! School fees, the roof, and Aunty Ngozi wedding!",
+          "highlight": [
+            "School",
+            "fees,",
+            "roof,",
+            "wedding!"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "c3",
+          "speaker": "chinedu",
+          "text": "Okay Mama… I go send am.",
+          "say": "Okay Mama... I go send am.",
+          "highlight": [
+            "send"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "m2",
+          "speaker": "mama",
+          "text": "God bless you, my son!",
+          "emotion": "happy"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "phone",
+          "caller": "CHINEDU",
+          "at": 0,
+          "answerAt": "m1",
+          "dur": 2.0
+        },
+        {
+          "kind": "money",
+          "label": "SAVINGS",
+          "currency": "£",
+          "from": 680,
+          "to": 80,
+          "at": "c3",
+          "dur": 3.4,
+          "steps": [
+            {
+              "label": "SENT HOME",
+              "amount": -600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-decision",
+      "label": "Split screen: his London room or Mama's house",
+      "environment": {
+        "type": "ukApartment",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 5
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 130,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 130,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "right",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "n8",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n7",
+          "speaker": "narrator",
+          "text": "Day nine… the biggest bill na the money he send home.",
+          "say": "Day nine... the biggest bill na the money he send home.",
+          "highlight": [
+            "biggest",
+            "bill",
+            "home."
+          ],
+          "holdAfter": 0.2
+        },
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? SEND or SAVE?",
+          "say": "If na you, wetin you go do? Send... or save?",
+          "highlight": [
+            "SEND",
+            "SAVE?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "SEND or SAVE?",
+          "a": "SEND: keep sending, cut his own spending",
+          "b": "SAVE: send less, build his savings",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1,
+        "cast": [
+          {
+            "who": "mama",
+            "x": 112,
+            "facing": "right",
+            "pose": "happy"
+          }
+        ],
+        "label": "HOME"
+      },
+      "leftLabel": "LONDON",
+      "splitCamera": {
+        "from": {
+          "x": 112,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 112,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

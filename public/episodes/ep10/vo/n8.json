@@ -1,0 +1,77 @@
+{
+ "key": "416d09859938",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "If na you, wetin you go do? Tell the truth... or say soon?",
+ "duration": 3.214,
+ "words": [
+  {
+   "w": "If",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "na",
+   "start": 0.216,
+   "end": 0.352
+  },
+  {
+   "w": "you",
+   "start": 0.386,
+   "end": 0.523
+  },
+  {
+   "w": "wetin",
+   "start": 0.784,
+   "end": 1.057
+  },
+  {
+   "w": "you",
+   "start": 1.125,
+   "end": 1.17
+  },
+  {
+   "w": "go",
+   "start": 1.239,
+   "end": 1.341
+  },
+  {
+   "w": "do",
+   "start": 1.409,
+   "end": 1.557
+  },
+  {
+   "w": "Tell",
+   "start": 1.837,
+   "end": 2.019
+  },
+  {
+   "w": "the",
+   "start": 2.064,
+   "end": 2.144
+  },
+  {
+   "w": "truth",
+   "start": 2.201,
+   "end": 2.53
+  },
+  {
+   "w": "or",
+   "start": 2.678,
+   "end": 2.78
+  },
+  {
+   "w": "say",
+   "start": 2.803,
+   "end": 2.973
+  },
+  {
+   "w": "soon",
+   "start": 3.019,
+   "end": 3.246
+  }
+ ]
+}

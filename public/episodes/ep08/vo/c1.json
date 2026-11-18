@@ -1,0 +1,47 @@
+{
+ "key": "e40da1549cb3",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Na Chi... ne... du oh! Three syllables!",
+ "duration": 2.579,
+ "words": [
+  {
+   "w": "Na",
+   "start": 0.0,
+   "end": 0.172
+  },
+  {
+   "w": "Chi",
+   "start": 0.216,
+   "end": 0.399
+  },
+  {
+   "w": "ne",
+   "start": 0.679,
+   "end": 0.916
+  },
+  {
+   "w": "du",
+   "start": 1.196,
+   "end": 1.39
+  },
+  {
+   "w": "oh",
+   "start": 1.422,
+   "end": 1.573
+  },
+  {
+   "w": "Three",
+   "start": 1.853,
+   "end": 2.014
+  },
+  {
+   "w": "syllables",
+   "start": 2.046,
+   "end": 2.639
+  }
+ ]
+}

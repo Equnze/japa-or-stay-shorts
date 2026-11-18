@@ -1,0 +1,354 @@
+{
+  "id": "ep11",
+  "title": "London Winter Hit Him at the Bus Stop",
+  "hook": "Minus two degrees… and the bus is 25 minutes late!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-cold",
+      "label": "London bus stop at night, winter",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "night",
+        "weather": "rain",
+        "seed": 7
+      },
+      "music": "london",
+      "ambience": "rain",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 156,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 152,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 156,
+          "facing": "left",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "c1",
+              "pose": "shocked"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "Minus two degrees… and the bus is 25 minutes late!",
+          "say": "Minus two degrees... and the bus is twenty five minutes late!",
+          "highlight": [
+            "Minus",
+            "two",
+            "late!"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Ah! This cold dey enter my bone!",
+          "highlight": [
+            "cold",
+            "bone!"
+          ],
+          "emotion": "shocked"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "-2°C",
+          "sub": "BUS: 25 MINS LATE",
+          "at": 0,
+          "dur": 2.3
+        },
+        {
+          "kind": "stats",
+          "at": "c1",
+          "dur": 2.4,
+          "stats": [
+            {
+              "label": "WARMTH",
+              "from": 70,
+              "to": 5,
+              "color": "#E8A317"
+            },
+            {
+              "label": "REGRET",
+              "from": 10,
+              "to": 60,
+              "color": "#E8473A"
+            }
+          ]
+        },
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "sweat",
+          "at": "c1",
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "id": "s2-ada",
+      "label": "Same London bus stop, Ada arrives",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "night",
+        "weather": "rain",
+        "props": [
+          "busArrives"
+        ],
+        "seed": 7
+      },
+      "music": "tension",
+      "ambience": "rain",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 142,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 144,
+          "y": 212,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "ada",
+          "x": 128,
+          "facing": "right",
+          "pose": "happy",
+          "poses": [
+            {
+              "at": "a1",
+              "pose": "talk"
+            }
+          ]
+        },
+        {
+          "who": "chinedu",
+          "x": 158,
+          "facing": "left",
+          "pose": "sad"
+        }
+      ],
+      "lines": [
+        {
+          "id": "a1",
+          "speaker": "ada",
+          "text": "Welcome to London winter! Where your coat?",
+          "highlight": [
+            "winter!",
+            "coat?"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "This na my Lagos jacket…",
+          "say": "This na my Lagos jacket...",
+          "highlight": [
+            "Lagos",
+            "jacket…"
+          ],
+          "emotion": "sad",
+          "holdAfter": 0.15
+        },
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "A proper winter coat? £120.",
+          "say": "A proper winter coat? One hundred and twenty pounds.",
+          "highlight": [
+            "£120."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "money",
+          "label": "SAVINGS",
+          "currency": "£",
+          "from": 300,
+          "to": 180,
+          "at": "n2",
+          "dur": 2.6,
+          "steps": [
+            {
+              "label": "WINTER COAT",
+              "amount": -120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-decision",
+      "label": "Split screen: the cold bus stop or a warm room",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "night",
+        "weather": "rain",
+        "seed": 7
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 150,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 150,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 152,
+          "facing": "left",
+          "pose": "sad",
+          "poses": [
+            {
+              "at": "n8",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? COAT or MANAGE?",
+          "say": "If na you, wetin you go do? Buy the coat... or manage?",
+          "highlight": [
+            "COAT",
+            "MANAGE?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "COAT or MANAGE?",
+          "a": "COAT: buy the £120 coat",
+          "b": "MANAGE: Lagos jacket + 3 jumpers",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "ukApartment",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 5,
+        "cast": [
+          {
+            "who": "chinedu",
+            "x": 124,
+            "facing": "right",
+            "pose": "happy"
+          }
+        ],
+        "label": "HOME"
+      },
+      "leftLabel": "BUS STOP",
+      "splitCamera": {
+        "from": {
+          "x": 124,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 124,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

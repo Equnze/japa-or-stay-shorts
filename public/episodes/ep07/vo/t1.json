@@ -1,0 +1,57 @@
+{
+ "key": "9bb6b71b2a94",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+8%",
+  "pitch": "-2Hz"
+ },
+ "say": "Guy, I don send you fifty pounds. Rest small!",
+ "duration": 2.763,
+ "words": [
+  {
+   "w": "Guy",
+   "start": 0.0,
+   "end": 0.312
+  },
+  {
+   "w": "I",
+   "start": 0.556,
+   "end": 0.648
+  },
+  {
+   "w": "don",
+   "start": 0.706,
+   "end": 0.845
+  },
+  {
+   "w": "send",
+   "start": 0.88,
+   "end": 1.1
+  },
+  {
+   "w": "you",
+   "start": 1.123,
+   "end": 1.215
+  },
+  {
+   "w": "fifty",
+   "start": 1.227,
+   "end": 1.528
+  },
+  {
+   "w": "pounds",
+   "start": 1.586,
+   "end": 1.991
+  },
+  {
+   "w": "Rest",
+   "start": 2.271,
+   "end": 2.537
+  },
+  {
+   "w": "small",
+   "start": 2.606,
+   "end": 2.849
+  }
+ ]
+}

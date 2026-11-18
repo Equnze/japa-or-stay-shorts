@@ -1,0 +1,77 @@
+{
+ "key": "4559bc649d82",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "Good! Send money for your brother school fees. And buy me new phone!",
+ "duration": 3.611,
+ "words": [
+  {
+   "w": "Good",
+   "start": 0.0,
+   "end": 0.227
+  },
+  {
+   "w": "Send",
+   "start": 0.507,
+   "end": 0.814
+  },
+  {
+   "w": "money",
+   "start": 0.848,
+   "end": 1.098
+  },
+  {
+   "w": "for",
+   "start": 1.121,
+   "end": 1.28
+  },
+  {
+   "w": "your",
+   "start": 1.314,
+   "end": 1.393
+  },
+  {
+   "w": "brother",
+   "start": 1.461,
+   "end": 1.711
+  },
+  {
+   "w": "school",
+   "start": 1.746,
+   "end": 1.95
+  },
+  {
+   "w": "fees",
+   "start": 1.95,
+   "end": 2.325
+  },
+  {
+   "w": "And",
+   "start": 2.605,
+   "end": 2.764
+  },
+  {
+   "w": "buy",
+   "start": 2.832,
+   "end": 2.946
+  },
+  {
+   "w": "me",
+   "start": 2.98,
+   "end": 3.082
+  },
+  {
+   "w": "new",
+   "start": 3.116,
+   "end": 3.253
+  },
+  {
+   "w": "phone",
+   "start": 3.276,
+   "end": 3.514
+  }
+ ]
+}

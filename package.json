@@ -1,0 +1,33 @@
+{
+  "name": "japa-or-stay-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-driven 2.5D pixel-art YouTube Shorts studio for the Japa or Stay channel",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "new": "node scripts/new-episode.mjs",
+    "validate": "node scripts/validate.mjs",
+    "voice": "node scripts/voice.mjs",
+    "timeline": "node scripts/build-timeline.mjs",
+    "audio": "node scripts/audio.mjs",
+    "render": "node scripts/render.mjs",
+    "episode": "node scripts/episode.mjs",
+    "stills": "node scripts/stills.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.544",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

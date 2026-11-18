@@ -1,0 +1,52 @@
+{
+ "key": "f149bd948170",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Day one, rent. Day three, bills. Day five...",
+ "duration": 3.196,
+ "words": [
+  {
+   "w": "Day",
+   "start": 0.0,
+   "end": 0.182
+  },
+  {
+   "w": "one",
+   "start": 0.239,
+   "end": 0.443
+  },
+  {
+   "w": "rent",
+   "start": 0.659,
+   "end": 0.977
+  },
+  {
+   "w": "Day",
+   "start": 1.257,
+   "end": 1.428
+  },
+  {
+   "w": "three",
+   "start": 1.496,
+   "end": 1.734
+  },
+  {
+   "w": "bills",
+   "start": 2.014,
+   "end": 2.411
+  },
+  {
+   "w": "Day",
+   "start": 2.691,
+   "end": 2.85
+  },
+  {
+   "w": "five",
+   "start": 2.873,
+   "end": 3.191
+  }
+ ]
+}

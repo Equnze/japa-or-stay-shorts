@@ -1,0 +1,423 @@
+{
+  "id": "ep06",
+  "title": "The Visa Came… on His Wedding Day",
+  "hook": "Wedding day… and the visa email entered!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-wedding",
+      "label": "Family living room in Lagos, wedding morning",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1
+      },
+      "music": "lagos",
+      "ambience": "home",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 140,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 118,
+          "y": 200,
+          "zoom": 1.3
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 86,
+          "facing": "right",
+          "pose": "happy"
+        },
+        {
+          "who": "amaka",
+          "x": 114,
+          "facing": "right",
+          "pose": "happy"
+        },
+        {
+          "who": "chinedu",
+          "x": 146,
+          "facing": "left",
+          "pose": "phone",
+          "poses": [
+            {
+              "at": "c1",
+              "pose": "shocked"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "Wedding day… and the visa email entered!",
+          "say": "Wedding day... and the visa email entered!",
+          "highlight": [
+            "Wedding",
+            "visa"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Ehn! London don approve me!",
+          "highlight": [
+            "London",
+            "approve"
+          ],
+          "emotion": "shocked"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "VISA APPROVED!",
+          "sub": "ON HIS WEDDING DAY",
+          "at": 0,
+          "dur": 2.4
+        },
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "!!",
+          "at": "c1",
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "id": "s2-street",
+      "label": "Lagos street outside the party",
+      "environment": {
+        "type": "lagosStreet",
+        "timeOfDay": "evening",
+        "seed": 4
+      },
+      "music": "tension",
+      "ambience": "street",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 128,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 128,
+          "y": 210,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "amaka",
+          "x": 114,
+          "facing": "right",
+          "pose": "happy",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "sad"
+            }
+          ]
+        },
+        {
+          "who": "chinedu",
+          "x": 142,
+          "facing": "left",
+          "pose": "talk",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "sad"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "a1",
+          "speaker": "amaka",
+          "text": "Na so? We go japa together!",
+          "highlight": [
+            "together!"
+          ],
+          "emotion": "happy",
+          "holdAfter": 0.12
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "Amaka… the visa na only me.",
+          "say": "Amaka... the visa na only me.",
+          "highlight": [
+            "only"
+          ],
+          "holdAfter": 0.15
+        },
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "Her own visa fit take months.",
+          "highlight": [
+            "months."
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "stats",
+          "at": "n2",
+          "dur": 2.4,
+          "stats": [
+            {
+              "label": "JOY",
+              "from": 95,
+              "to": 30,
+              "color": "#16A266"
+            },
+            {
+              "label": "WAIT",
+              "from": 0,
+              "to": 80,
+              "color": "#E8473A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-airport",
+      "label": "Lagos airport, the family decides",
+      "environment": {
+        "type": "airport",
+        "timeOfDay": "day",
+        "seed": 3
+      },
+      "music": "london",
+      "ambience": "airport",
+      "transition": "flash",
+      "lead": 0.3,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 122,
+          "y": 200,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 122,
+          "y": 212,
+          "zoom": 1.55
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 92,
+          "facing": "right",
+          "pose": "talk"
+        },
+        {
+          "who": "chinedu",
+          "x": 124,
+          "facing": "left",
+          "pose": "thinking"
+        },
+        {
+          "who": "amaka",
+          "x": 152,
+          "facing": "left",
+          "pose": "sad"
+        }
+      ],
+      "lines": [
+        {
+          "id": "m1",
+          "speaker": "mama",
+          "text": "Go now! Your wife go follow later.",
+          "highlight": [
+            "Go",
+            "now!"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "a2",
+          "speaker": "amaka",
+          "text": "You go leave me after our wedding?",
+          "highlight": [
+            "leave"
+          ],
+          "emotion": "sad"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "amaka",
+          "symbol": "sweat",
+          "at": "a2",
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "id": "s4-decision",
+      "label": "Split screen: airport or home together",
+      "environment": {
+        "type": "airport",
+        "timeOfDay": "day",
+        "seed": 3
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 124,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 124,
+          "facing": "right",
+          "pose": "thinking"
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? GO now, or WAIT?",
+          "say": "If na you, wetin you go do? Go now... or wait?",
+          "highlight": [
+            "GO",
+            "WAIT?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "GO or WAIT?",
+          "a": "GO NOW: she follows later",
+          "b": "WAIT: japa together",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1,
+        "cast": [
+          {
+            "who": "amaka",
+            "x": 104,
+            "facing": "right",
+            "pose": "happy"
+          },
+          {
+            "who": "chinedu",
+            "x": 132,
+            "facing": "left",
+            "pose": "happy"
+          }
+        ],
+        "label": "HOME"
+      },
+      "leftLabel": "AIRPORT",
+      "splitCamera": {
+        "from": {
+          "x": 118,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 118,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

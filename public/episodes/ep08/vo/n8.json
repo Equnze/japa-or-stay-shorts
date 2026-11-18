@@ -1,0 +1,72 @@
+{
+ "key": "600b2f83eba1",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "If na you, wetin you go do? Your name... or a nickname?",
+ "duration": 3.055,
+ "words": [
+  {
+   "w": "If",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "na",
+   "start": 0.216,
+   "end": 0.352
+  },
+  {
+   "w": "you",
+   "start": 0.386,
+   "end": 0.523
+  },
+  {
+   "w": "wetin",
+   "start": 0.784,
+   "end": 1.057
+  },
+  {
+   "w": "you",
+   "start": 1.125,
+   "end": 1.17
+  },
+  {
+   "w": "go",
+   "start": 1.239,
+   "end": 1.341
+  },
+  {
+   "w": "do",
+   "start": 1.409,
+   "end": 1.557
+  },
+  {
+   "w": "Your",
+   "start": 1.837,
+   "end": 2.041
+  },
+  {
+   "w": "name",
+   "start": 2.053,
+   "end": 2.326
+  },
+  {
+   "w": "or",
+   "start": 2.462,
+   "end": 2.621
+  },
+  {
+   "w": "a",
+   "start": 2.621,
+   "end": 2.666
+  },
+  {
+   "w": "nickname",
+   "start": 2.701,
+   "end": 3.144
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+  "id": "ep04",
+  "title": "He Came Back From London After One Year",
+  "hook": "One year in London… Chinedu just landed back in Lagos!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-arrival",
+      "label": "Lagos airport arrivals, he lands back home",
+      "environment": {
+        "type": "airport",
+        "timeOfDay": "day",
+        "seed": 3,
+        "props": [
+          "arrivals"
+        ]
+      },
+      "music": "lagos",
+      "ambience": "airport",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 212,
+          "zoom": 1.7
+        },
+        "to": {
+          "x": 116,
+          "y": 198,
+          "zoom": 1.3
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 150,
+          "facing": "left",
+          "pose": "walk",
+          "poses": [
+            {
+              "at": "a1",
+              "pose": "happy"
+            }
+          ],
+          "walkTo": 128
+        },
+        {
+          "who": "amaka",
+          "x": 96,
+          "facing": "right",
+          "pose": "wave",
+          "poses": [
+            {
+              "at": "a1",
+              "pose": "talk"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "One year in London… Chinedu just landed back in Lagos!",
+          "say": "One year in London... Chinedu just landed back in Lagos!",
+          "highlight": [
+            "Lagos!"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "a1",
+          "speaker": "amaka",
+          "text": "Chinedu! Where my gift?!",
+          "say": "Chinedu! Where my gift?",
+          "highlight": [
+            "gift?!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "HE DON RETURN!",
+          "sub": "LONDON  ✈  LAGOS",
+          "at": 0,
+          "dur": 2.4
+        },
+        {
+          "kind": "sfx",
+          "name": "chime",
+          "at": 0.05
+        }
+      ]
+    },
+    {
+      "id": "s2-street",
+      "label": "Lagos street, back in the traffic",
+      "environment": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 2
+      },
+      "music": "lagos",
+      "ambience": "street",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 130,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 132,
+          "y": 210,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 118,
+          "facing": "right",
+          "pose": "talk",
+          "poses": [
+            {
+              "at": "a2",
+              "pose": "shocked"
+            }
+          ]
+        },
+        {
+          "who": "amaka",
+          "x": 146,
+          "facing": "left",
+          "pose": "idle",
+          "poses": [
+            {
+              "at": "a2",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Lagos traffic… I really missed you.",
+          "say": "Lagos traffic... I really missed you.",
+          "highlight": [
+            "traffic…"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "a2",
+          "speaker": "amaka",
+          "text": "Since when you dey talk like oyinbo?",
+          "highlight": [
+            "oyinbo?"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "?",
+          "at": "a2",
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "id": "s3-home",
+      "label": "Mama's living room in Lagos",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1
+      },
+      "music": "lagos",
+      "ambience": "home",
+      "transition": "flash",
+      "lead": 0.25,
+      "tail": 0.2,
+      "camera": {
+        "from": {
+          "x": 112,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 114,
+          "y": 212,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 96,
+          "facing": "right",
+          "pose": "happy"
+        },
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "left",
+          "pose": "happy"
+        }
+      ],
+      "lines": [
+        {
+          "id": "m1",
+          "speaker": "mama",
+          "text": "My son don come back! Welcome home!",
+          "highlight": [
+            "Welcome",
+            "home!"
+          ],
+          "emotion": "happy"
+        }
+      ],
+      "ui": []
+    },
+    {
+      "id": "s4-blackout",
+      "label": "Mama's living room, NEPA takes the light",
+      "environment": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "props": [
+          "blackout"
+        ],
+        "seed": 1
+      },
+      "music": "tension",
+      "ambience": "home",
+      "transition": "cut",
+      "lead": 0.5,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 114,
+          "y": 206,
+          "zoom": 1.6
+        },
+        "to": {
+          "x": 114,
+          "y": 212,
+          "zoom": 1.75
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "mama",
+          "x": 96,
+          "facing": "right",
+          "pose": "talk"
+        },
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "left",
+          "pose": "shocked",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "Then… NEPA took light.",
+          "say": "Then... NEPA took light.",
+          "highlight": [
+            "NEPA"
+          ],
+          "holdAfter": 0.15
+        },
+        {
+          "id": "m2",
+          "speaker": "mama",
+          "text": "So… you don come back for good?",
+          "say": "So... you don come back for good?",
+          "highlight": [
+            "good?"
+          ],
+          "holdAfter": 0.1
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "Mama… I never decide.",
+          "say": "Mama... I never decide.",
+          "highlight": [
+            "decide."
+          ],
+          "emotion": "thinking"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "...",
+          "at": "c2",
+          "dur": 1.5
+        },
+        {
+          "kind": "sfx",
+          "name": "stamp",
+          "at": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s5-decision",
+      "label": "Split screen: London or Lagos",
+      "environment": {
+        "type": "londonStreet",
+        "timeOfDay": "evening",
+        "weather": "rain",
+        "seed": 7
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 146,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 146,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 150,
+          "facing": "left",
+          "pose": "thinking"
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? JAPA or STAY?",
+          "say": "If na you, wetin you go do? Japa... or stay?",
+          "highlight": [
+            "JAPA",
+            "STAY?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "JAPA or STAY?",
+          "a": "JAPA: go back to London",
+          "b": "STAY: home for good",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "lagosStreet",
+        "timeOfDay": "day",
+        "seed": 2,
+        "cast": [
+          {
+            "who": "chinedu",
+            "x": 122,
+            "facing": "right",
+            "pose": "happy"
+          },
+          {
+            "who": "amaka",
+            "x": 146,
+            "facing": "left",
+            "pose": "wave"
+          }
+        ],
+        "label": "LAGOS"
+      },
+      "leftLabel": "LONDON",
+      "splitCamera": {
+        "from": {
+          "x": 132,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 132,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

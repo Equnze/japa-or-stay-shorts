@@ -1,0 +1,47 @@
+{
+ "key": "b133c134dace",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Chinedu! My UK visa don come out!",
+ "duration": 2.233,
+ "words": [
+  {
+   "w": "Chinedu",
+   "start": 0.0,
+   "end": 0.417
+  },
+  {
+   "w": "My",
+   "start": 0.697,
+   "end": 0.883
+  },
+  {
+   "w": "UK",
+   "start": 0.938,
+   "end": 1.212
+  },
+  {
+   "w": "visa",
+   "start": 1.223,
+   "end": 1.497
+  },
+  {
+   "w": "don",
+   "start": 1.563,
+   "end": 1.739
+  },
+  {
+   "w": "come",
+   "start": 1.771,
+   "end": 1.925
+  },
+  {
+   "w": "out",
+   "start": 1.936,
+   "end": 2.144
+  }
+ ]
+}

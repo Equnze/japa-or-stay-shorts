@@ -1,0 +1,62 @@
+{
+ "key": "8f9da1d9bb51",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "My son! School fees, the roof, and Aunty Ngozi wedding!",
+ "duration": 3.559,
+ "words": [
+  {
+   "w": "My",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "son",
+   "start": 0.216,
+   "end": 0.466
+  },
+  {
+   "w": "School",
+   "start": 0.746,
+   "end": 1.018
+  },
+  {
+   "w": "fees",
+   "start": 1.03,
+   "end": 1.416
+  },
+  {
+   "w": "the",
+   "start": 1.696,
+   "end": 1.798
+  },
+  {
+   "w": "roof",
+   "start": 1.832,
+   "end": 2.207
+  },
+  {
+   "w": "and",
+   "start": 2.468,
+   "end": 2.582
+  },
+  {
+   "w": "Aunty",
+   "start": 2.627,
+   "end": 2.889
+  },
+  {
+   "w": "Ngozi",
+   "start": 2.923,
+   "end": 3.218
+  },
+  {
+   "w": "wedding",
+   "start": 3.264,
+   "end": 3.525
+  }
+ ]
+}

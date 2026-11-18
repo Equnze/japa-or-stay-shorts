@@ -1,0 +1,32 @@
+{
+ "key": "5988680bfb55",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Mama... I never decide.",
+ "duration": 1.357,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.291
+  },
+  {
+   "w": "I",
+   "start": 0.571,
+   "end": 0.701
+  },
+  {
+   "w": "never",
+   "start": 0.722,
+   "end": 0.949
+  },
+  {
+   "w": "decide",
+   "start": 0.992,
+   "end": 1.336
+  }
+ ]
+}

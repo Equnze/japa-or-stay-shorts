@@ -1,0 +1,52 @@
+{
+ "key": "bc92493ae530",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Two thousand one hundred pounds! I don hammer!",
+ "duration": 2.4,
+ "words": [
+  {
+   "w": "Two",
+   "start": 0.0,
+   "end": 0.129
+  },
+  {
+   "w": "thousand",
+   "start": 0.194,
+   "end": 0.506
+  },
+  {
+   "w": "one",
+   "start": 0.55,
+   "end": 0.69
+  },
+  {
+   "w": "hundred",
+   "start": 0.733,
+   "end": 1.034
+  },
+  {
+   "w": "pounds",
+   "start": 1.099,
+   "end": 1.498
+  },
+  {
+   "w": "I",
+   "start": 1.778,
+   "end": 1.896
+  },
+  {
+   "w": "don",
+   "start": 1.961,
+   "end": 2.112
+  },
+  {
+   "w": "hammer",
+   "start": 2.144,
+   "end": 2.478
+  }
+ ]
+}

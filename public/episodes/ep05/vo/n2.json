@@ -1,0 +1,52 @@
+{
+ "key": "88118bfc1330",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "At the gate... she gave him one envelope.",
+ "duration": 1.848,
+ "words": [
+  {
+   "w": "At",
+   "start": 0.0,
+   "end": 0.125
+  },
+  {
+   "w": "the",
+   "start": 0.17,
+   "end": 0.227
+  },
+  {
+   "w": "gate",
+   "start": 0.295,
+   "end": 0.489
+  },
+  {
+   "w": "she",
+   "start": 0.769,
+   "end": 0.906
+  },
+  {
+   "w": "gave",
+   "start": 0.974,
+   "end": 1.133
+  },
+  {
+   "w": "him",
+   "start": 1.156,
+   "end": 1.269
+  },
+  {
+   "w": "one",
+   "start": 1.326,
+   "end": 1.463
+  },
+  {
+   "w": "envelope",
+   "start": 1.531,
+   "end": 2.019
+  }
+ ]
+}

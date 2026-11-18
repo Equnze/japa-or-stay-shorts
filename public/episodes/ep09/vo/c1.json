@@ -1,0 +1,57 @@
+{
+ "key": "503cb0e5d042",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Me? I still dey wait for bus... for rain.",
+ "duration": 2.198,
+ "words": [
+  {
+   "w": "Me",
+   "start": 0.0,
+   "end": 0.194
+  },
+  {
+   "w": "I",
+   "start": 0.474,
+   "end": 0.593
+  },
+  {
+   "w": "still",
+   "start": 0.625,
+   "end": 0.819
+  },
+  {
+   "w": "dey",
+   "start": 0.884,
+   "end": 0.97
+  },
+  {
+   "w": "wait",
+   "start": 1.024,
+   "end": 1.175
+  },
+  {
+   "w": "for",
+   "start": 1.196,
+   "end": 1.304
+  },
+  {
+   "w": "bus",
+   "start": 1.38,
+   "end": 1.67
+  },
+  {
+   "w": "for",
+   "start": 1.8,
+   "end": 1.994
+  },
+  {
+   "w": "rain",
+   "start": 2.037,
+   "end": 2.231
+  }
+ ]
+}

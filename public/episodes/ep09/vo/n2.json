@@ -1,0 +1,62 @@
+{
+ "key": "32e43e1d2a07",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Second-hand car, bad road... but both of them dey laugh.",
+ "duration": 2.958,
+ "words": [
+  {
+   "w": "Second-hand",
+   "start": 0.0,
+   "end": 0.602
+  },
+  {
+   "w": "car",
+   "start": 0.659,
+   "end": 0.852
+  },
+  {
+   "w": "bad",
+   "start": 1.125,
+   "end": 1.273
+  },
+  {
+   "w": "road",
+   "start": 1.352,
+   "end": 1.557
+  },
+  {
+   "w": "but",
+   "start": 1.837,
+   "end": 1.962
+  },
+  {
+   "w": "both",
+   "start": 2.03,
+   "end": 2.201
+  },
+  {
+   "w": "of",
+   "start": 2.212,
+   "end": 2.291
+  },
+  {
+   "w": "them",
+   "start": 2.36,
+   "end": 2.507
+  },
+  {
+   "w": "dey",
+   "start": 2.576,
+   "end": 2.678
+  },
+  {
+   "w": "laugh",
+   "start": 2.712,
+   "end": 3.076
+  }
+ ]
+}

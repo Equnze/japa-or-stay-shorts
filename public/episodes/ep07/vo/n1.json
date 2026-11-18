@@ -1,0 +1,62 @@
+{
+ "key": "e6435f4dd90b",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Five messages. Five people. All of them need money today!",
+ "duration": 3.287,
+ "words": [
+  {
+   "w": "Five",
+   "start": 0.0,
+   "end": 0.25
+  },
+  {
+   "w": "messages",
+   "start": 0.273,
+   "end": 0.852
+  },
+  {
+   "w": "Five",
+   "start": 1.132,
+   "end": 1.371
+  },
+  {
+   "w": "people",
+   "start": 1.439,
+   "end": 1.768
+  },
+  {
+   "w": "All",
+   "start": 2.048,
+   "end": 2.218
+  },
+  {
+   "w": "of",
+   "start": 2.218,
+   "end": 2.32
+  },
+  {
+   "w": "them",
+   "start": 2.377,
+   "end": 2.525
+  },
+  {
+   "w": "need",
+   "start": 2.559,
+   "end": 2.729
+  },
+  {
+   "w": "money",
+   "start": 2.763,
+   "end": 2.979
+  },
+  {
+   "w": "today",
+   "start": 3.036,
+   "end": 3.298
+  }
+ ]
+}

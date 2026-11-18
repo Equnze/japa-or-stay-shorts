@@ -1,0 +1,62 @@
+{
+ "key": "72add65e6d23",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "If na you, wetin you go do? Japa... or stay?",
+ "duration": 2.815,
+ "words": [
+  {
+   "w": "If",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "na",
+   "start": 0.216,
+   "end": 0.352
+  },
+  {
+   "w": "you",
+   "start": 0.386,
+   "end": 0.523
+  },
+  {
+   "w": "wetin",
+   "start": 0.784,
+   "end": 1.057
+  },
+  {
+   "w": "you",
+   "start": 1.125,
+   "end": 1.17
+  },
+  {
+   "w": "go",
+   "start": 1.239,
+   "end": 1.341
+  },
+  {
+   "w": "do",
+   "start": 1.409,
+   "end": 1.557
+  },
+  {
+   "w": "Japa",
+   "start": 1.837,
+   "end": 2.212
+  },
+  {
+   "w": "or",
+   "start": 2.473,
+   "end": 2.598
+  },
+  {
+   "w": "stay",
+   "start": 2.633,
+   "end": 2.86
+  }
+ ]
+}

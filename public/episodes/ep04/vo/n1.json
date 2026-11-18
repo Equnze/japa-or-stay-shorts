@@ -1,0 +1,62 @@
+{
+ "key": "f402e98f6d6c",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "One year in London... Chinedu just landed back in Lagos!",
+ "duration": 2.955,
+ "words": [
+  {
+   "w": "One",
+   "start": 0.0,
+   "end": 0.193
+  },
+  {
+   "w": "year",
+   "start": 0.25,
+   "end": 0.364
+  },
+  {
+   "w": "in",
+   "start": 0.375,
+   "end": 0.466
+  },
+  {
+   "w": "London",
+   "start": 0.466,
+   "end": 0.864
+  },
+  {
+   "w": "Chinedu",
+   "start": 1.144,
+   "end": 1.497
+  },
+  {
+   "w": "just",
+   "start": 1.553,
+   "end": 1.747
+  },
+  {
+   "w": "landed",
+   "start": 1.769,
+   "end": 2.065
+  },
+  {
+   "w": "back",
+   "start": 2.133,
+   "end": 2.281
+  },
+  {
+   "w": "in",
+   "start": 2.36,
+   "end": 2.428
+  },
+  {
+   "w": "Lagos",
+   "start": 2.44,
+   "end": 2.997
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "key": "4deb9910c3ef",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Where my money dey go?",
+ "duration": 0.846,
+ "words": [
+  {
+   "w": "Where",
+   "start": 0.0,
+   "end": 0.205
+  },
+  {
+   "w": "my",
+   "start": 0.226,
+   "end": 0.323
+  },
+  {
+   "w": "money",
+   "start": 0.356,
+   "end": 0.528
+  },
+  {
+   "w": "dey",
+   "start": 0.603,
+   "end": 0.679
+  },
+  {
+   "w": "go",
+   "start": 0.744,
+   "end": 0.894
+  }
+ ]
+}

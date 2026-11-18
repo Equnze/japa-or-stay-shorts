@@ -1,0 +1,67 @@
+{
+ "key": "c9ef5354791b",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "This room small oh! Wetin be this black thing for wall?",
+ "duration": 2.755,
+ "words": [
+  {
+   "w": "This",
+   "start": 0.0,
+   "end": 0.284
+  },
+  {
+   "w": "room",
+   "start": 0.33,
+   "end": 0.511
+  },
+  {
+   "w": "small",
+   "start": 0.58,
+   "end": 0.83
+  },
+  {
+   "w": "oh",
+   "start": 0.864,
+   "end": 0.977
+  },
+  {
+   "w": "Wetin",
+   "start": 1.257,
+   "end": 1.609
+  },
+  {
+   "w": "be",
+   "start": 1.655,
+   "end": 1.723
+  },
+  {
+   "w": "this",
+   "start": 1.78,
+   "end": 1.939
+  },
+  {
+   "w": "black",
+   "start": 1.996,
+   "end": 2.166
+  },
+  {
+   "w": "thing",
+   "start": 2.257,
+   "end": 2.416
+  },
+  {
+   "w": "for",
+   "start": 2.439,
+   "end": 2.575
+  },
+  {
+   "w": "wall",
+   "start": 2.632,
+   "end": 2.837
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "key": "bb506df341ed",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Mama! How you find my house?",
+ "duration": 1.615,
+ "words": [
+  {
+   "w": "Mama",
+   "start": 0.0,
+   "end": 0.28
+  },
+  {
+   "w": "How",
+   "start": 0.56,
+   "end": 0.732
+  },
+  {
+   "w": "you",
+   "start": 0.764,
+   "end": 0.84
+  },
+  {
+   "w": "find",
+   "start": 0.861,
+   "end": 1.088
+  },
+  {
+   "w": "my",
+   "start": 1.12,
+   "end": 1.228
+  },
+  {
+   "w": "house",
+   "start": 1.249,
+   "end": 1.605
+  }
+ ]
+}

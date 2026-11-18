@@ -1,0 +1,77 @@
+{
+ "key": "929537e23708",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "First day at the UK job... and they called him Chin-doo, all morning!",
+ "duration": 3.248,
+ "words": [
+  {
+   "w": "First",
+   "start": 0.0,
+   "end": 0.307
+  },
+  {
+   "w": "day",
+   "start": 0.341,
+   "end": 0.466
+  },
+  {
+   "w": "at",
+   "start": 0.466,
+   "end": 0.568
+  },
+  {
+   "w": "the",
+   "start": 0.591,
+   "end": 0.648
+  },
+  {
+   "w": "UK",
+   "start": 0.705,
+   "end": 0.943
+  },
+  {
+   "w": "job",
+   "start": 1.011,
+   "end": 1.216
+  },
+  {
+   "w": "and",
+   "start": 1.477,
+   "end": 1.58
+  },
+  {
+   "w": "they",
+   "start": 1.648,
+   "end": 1.716
+  },
+  {
+   "w": "called",
+   "start": 1.795,
+   "end": 2.0
+  },
+  {
+   "w": "him",
+   "start": 2.034,
+   "end": 2.17
+  },
+  {
+   "w": "Chin-doo",
+   "start": 2.216,
+   "end": 2.625
+  },
+  {
+   "w": "all",
+   "start": 2.852,
+   "end": 2.989
+  },
+  {
+   "w": "morning",
+   "start": 3.0,
+   "end": 3.386
+  }
+ ]
+}

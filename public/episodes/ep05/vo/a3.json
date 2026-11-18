@@ -1,0 +1,42 @@
+{
+ "key": "65ac64046034",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Your own visa application. Fill am!",
+ "duration": 2.073,
+ "words": [
+  {
+   "w": "Your",
+   "start": 0.0,
+   "end": 0.154
+  },
+  {
+   "w": "own",
+   "start": 0.208,
+   "end": 0.384
+  },
+  {
+   "w": "visa",
+   "start": 0.439,
+   "end": 0.713
+  },
+  {
+   "w": "application",
+   "start": 0.735,
+   "end": 1.327
+  },
+  {
+   "w": "Fill",
+   "start": 1.607,
+   "end": 1.827
+  },
+  {
+   "w": "am",
+   "start": 1.86,
+   "end": 2.013
+  }
+ ]
+}

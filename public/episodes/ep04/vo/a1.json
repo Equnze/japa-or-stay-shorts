@@ -1,0 +1,32 @@
+{
+ "key": "ac1cb7ef6640",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Chinedu! Where my gift?",
+ "duration": 1.403,
+ "words": [
+  {
+   "w": "Chinedu",
+   "start": 0.0,
+   "end": 0.417
+  },
+  {
+   "w": "Where",
+   "start": 0.697,
+   "end": 0.883
+  },
+  {
+   "w": "my",
+   "start": 0.894,
+   "end": 1.004
+  },
+  {
+   "w": "gift",
+   "start": 1.081,
+   "end": 1.322
+  }
+ ]
+}

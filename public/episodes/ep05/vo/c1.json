@@ -1,0 +1,37 @@
+{
+ "key": "41bf8b57f5ee",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Congrats... but wetin about us?",
+ "duration": 1.732,
+ "words": [
+  {
+   "w": "Congrats",
+   "start": 0.0,
+   "end": 0.539
+  },
+  {
+   "w": "but",
+   "start": 0.776,
+   "end": 0.938
+  },
+  {
+   "w": "wetin",
+   "start": 0.959,
+   "end": 1.218
+  },
+  {
+   "w": "about",
+   "start": 1.218,
+   "end": 1.509
+  },
+  {
+   "w": "us",
+   "start": 1.509,
+   "end": 1.81
+  }
+ ]
+}

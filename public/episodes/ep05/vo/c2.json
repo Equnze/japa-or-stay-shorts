@@ -1,0 +1,47 @@
+{
+ "key": "2fe5d5e89713",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "My work, my Mama, everything dey here!",
+ "duration": 2.04,
+ "words": [
+  {
+   "w": "My",
+   "start": 0.0,
+   "end": 0.183
+  },
+  {
+   "w": "work",
+   "start": 0.226,
+   "end": 0.442
+  },
+  {
+   "w": "my",
+   "start": 0.668,
+   "end": 0.808
+  },
+  {
+   "w": "Mama",
+   "start": 0.841,
+   "end": 1.131
+  },
+  {
+   "w": "everything",
+   "start": 1.369,
+   "end": 1.756
+  },
+  {
+   "w": "dey",
+   "start": 1.778,
+   "end": 1.875
+  },
+  {
+   "w": "here",
+   "start": 1.897,
+   "end": 2.101
+  }
+ ]
+}

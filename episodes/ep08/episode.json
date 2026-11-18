@@ -1,0 +1,334 @@
+{
+  "id": "ep08",
+  "title": "First Day at a UK Job: \"Call Me By My Name\"",
+  "hook": "First day at the UK job… and they called him Chin-doo all morning!",
+  "disclaimer": "All money figures are fictional game values.",
+  "voices": {
+    "narrator": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+10%",
+      "pitch": "-6Hz"
+    },
+    "chinedu": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+16%",
+      "pitch": "+8Hz"
+    },
+    "mama": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "-10Hz"
+    },
+    "amaka": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+14%",
+      "pitch": "+6Hz"
+    },
+    "tunde": {
+      "voice": "en-NG-AbeoNeural",
+      "rate": "+8%",
+      "pitch": "-2Hz"
+    },
+    "ada": {
+      "voice": "en-NG-EzinneNeural",
+      "rate": "+10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1-firstday",
+      "label": "UK workplace, his first day",
+      "environment": {
+        "type": "ukWorkplace",
+        "timeOfDay": "day",
+        "seed": 4
+      },
+      "music": "lagos",
+      "ambience": "office",
+      "transition": "cut",
+      "lead": 0.15,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 130,
+          "y": 214,
+          "zoom": 1.75
+        },
+        "to": {
+          "x": 128,
+          "y": 198,
+          "zoom": 1.35
+        },
+        "ease": "out"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 130,
+          "facing": "left",
+          "pose": "happy",
+          "poses": [
+            {
+              "at": "c1",
+              "pose": "thinking"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n1",
+          "speaker": "narrator",
+          "text": "First day at the UK job… and they called him \"Chin-doo\" all morning!",
+          "say": "First day at the UK job... and they called him Chin-doo, all morning!",
+          "highlight": [
+            "\"Chin-doo\""
+          ],
+          "holdAfter": 0.15
+        },
+        {
+          "id": "c1",
+          "speaker": "chinedu",
+          "text": "Na Chi-ne-du o! Three syllables!",
+          "say": "Na Chi... ne... du oh! Three syllables!",
+          "highlight": [
+            "Chi-ne-du",
+            "Three"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "title",
+          "text": "FIRST DAY!",
+          "sub": "NEW UK JOB",
+          "at": 0,
+          "dur": 2.2
+        },
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "?",
+          "at": "n1",
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s2-lunch",
+      "label": "UK workplace, lunch break with a colleague",
+      "environment": {
+        "type": "ukWorkplace",
+        "timeOfDay": "day",
+        "seed": 9
+      },
+      "music": "lagos",
+      "ambience": "office",
+      "transition": "pixelWipe",
+      "lead": 0.25,
+      "tail": 0.35,
+      "camera": {
+        "from": {
+          "x": 124,
+          "y": 200,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 124,
+          "y": 212,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "ada",
+          "x": 108,
+          "facing": "right",
+          "pose": "talk",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "happy"
+            }
+          ]
+        },
+        {
+          "who": "chinedu",
+          "x": 140,
+          "facing": "left",
+          "pose": "idle",
+          "poses": [
+            {
+              "at": "c2",
+              "pose": "happy"
+            }
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "id": "n2",
+          "speaker": "narrator",
+          "text": "At lunch, one colleague practised it…",
+          "say": "At lunch, one colleague practised it...",
+          "highlight": [
+            "practised"
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "a1",
+          "speaker": "ada",
+          "text": "Chi-ne-du. Did I say it right?",
+          "highlight": [
+            "Chi-ne-du."
+          ],
+          "holdAfter": 0.12
+        },
+        {
+          "id": "c2",
+          "speaker": "chinedu",
+          "text": "Perfect! You try well well!",
+          "highlight": [
+            "Perfect!"
+          ],
+          "emotion": "happy"
+        }
+      ],
+      "ui": [
+        {
+          "kind": "reaction",
+          "who": "chinedu",
+          "symbol": "!",
+          "at": "c2",
+          "dur": 1.2
+        },
+        {
+          "kind": "stats",
+          "at": "c2",
+          "dur": 2.4,
+          "stats": [
+            {
+              "label": "RESPECT",
+              "from": 30,
+              "to": 95,
+              "color": "#16A266"
+            },
+            {
+              "label": "STRESS",
+              "from": 70,
+              "to": 25,
+              "color": "#E8473A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-decision",
+      "label": "Split screen: his UK workplace or home",
+      "environment": {
+        "type": "ukWorkplace",
+        "timeOfDay": "day",
+        "seed": 4
+      },
+      "music": "decision",
+      "ambience": "street",
+      "transition": "slide",
+      "lead": 0.2,
+      "tail": 1.2,
+      "camera": {
+        "from": {
+          "x": 128,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 128,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      },
+      "cast": [
+        {
+          "who": "chinedu",
+          "x": 128,
+          "facing": "right",
+          "pose": "thinking"
+        }
+      ],
+      "lines": [
+        {
+          "id": "n8",
+          "speaker": "narrator",
+          "text": "If na you, wetin you go do? NAME or NICKNAME?",
+          "say": "If na you, wetin you go do? Your name... or a nickname?",
+          "highlight": [
+            "NAME",
+            "NICKNAME?"
+          ],
+          "holdAfter": 0.25
+        },
+        {
+          "id": "n9",
+          "speaker": "narrator",
+          "text": "Comment A or B! Follow for Part 2!",
+          "highlight": [
+            "A",
+            "B!",
+            "Part",
+            "2!"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "kind": "decision",
+          "question": "NAME or NICKNAME?",
+          "a": "NAME: correct people every time",
+          "b": "NICKNAME: just call me \"Ched\"",
+          "at": "n8",
+          "cta": "COMMENT A OR B! FOLLOW FOR PART 2!"
+        }
+      ],
+      "split": {
+        "type": "nigerianHome",
+        "timeOfDay": "day",
+        "seed": 1,
+        "cast": [
+          {
+            "who": "mama",
+            "x": 112,
+            "facing": "right",
+            "pose": "happy"
+          }
+        ],
+        "label": "HOME"
+      },
+      "leftLabel": "UK JOB",
+      "splitCamera": {
+        "from": {
+          "x": 112,
+          "y": 200,
+          "zoom": 1.45
+        },
+        "to": {
+          "x": 112,
+          "y": 208,
+          "zoom": 1.6
+        },
+        "ease": "inOut"
+      }
+    }
+  ],
+  "endScreen": {
+    "headline": "JAPA OR STAY",
+    "cta": "Play the free game",
+    "link": "https://japa-or-stay.pages.dev",
+    "handle": "@japaor_stay",
+    "seconds": 2.6
+  }
+}

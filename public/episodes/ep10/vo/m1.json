@@ -1,0 +1,62 @@
+{
+ "key": "aec37e1389a7",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "Item one: have you eaten? Item two: are you praying?",
+ "duration": 3.287,
+ "words": [
+  {
+   "w": "Item",
+   "start": 0.0,
+   "end": 0.341
+  },
+  {
+   "w": "one",
+   "start": 0.432,
+   "end": 0.568
+  },
+  {
+   "w": "have",
+   "start": 0.848,
+   "end": 1.03
+  },
+  {
+   "w": "you",
+   "start": 1.064,
+   "end": 1.132
+  },
+  {
+   "w": "eaten",
+   "start": 1.178,
+   "end": 1.496
+  },
+  {
+   "w": "Item",
+   "start": 1.776,
+   "end": 2.151
+  },
+  {
+   "w": "two",
+   "start": 2.219,
+   "end": 2.401
+  },
+  {
+   "w": "are",
+   "start": 2.681,
+   "end": 2.772
+  },
+  {
+   "w": "you",
+   "start": 2.829,
+   "end": 2.897
+  },
+  {
+   "w": "praying",
+   "start": 2.976,
+   "end": 3.249
+  }
+ ]
+}

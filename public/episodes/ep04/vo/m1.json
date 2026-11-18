@@ -1,0 +1,47 @@
+{
+ "key": "d0980184ce3e",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "My son don come back! Welcome home!",
+ "duration": 2.102,
+ "words": [
+  {
+   "w": "My",
+   "start": 0.0,
+   "end": 0.193
+  },
+  {
+   "w": "son",
+   "start": 0.239,
+   "end": 0.455
+  },
+  {
+   "w": "don",
+   "start": 0.534,
+   "end": 0.727
+  },
+  {
+   "w": "come",
+   "start": 0.773,
+   "end": 0.909
+  },
+  {
+   "w": "back",
+   "start": 0.989,
+   "end": 1.148
+  },
+  {
+   "w": "Welcome",
+   "start": 1.428,
+   "end": 1.803
+  },
+  {
+   "w": "home",
+   "start": 1.849,
+   "end": 2.053
+  }
+ ]
+}

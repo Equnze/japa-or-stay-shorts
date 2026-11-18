@@ -1,0 +1,57 @@
+{
+ "key": "d7cdf71cda90",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "A proper winter coat? One hundred and twenty pounds.",
+ "duration": 2.765,
+ "words": [
+  {
+   "w": "A",
+   "start": 0.0,
+   "end": 0.068
+  },
+  {
+   "w": "proper",
+   "start": 0.136,
+   "end": 0.398
+  },
+  {
+   "w": "winter",
+   "start": 0.455,
+   "end": 0.716
+  },
+  {
+   "w": "coat",
+   "start": 0.773,
+   "end": 1.0
+  },
+  {
+   "w": "One",
+   "start": 1.28,
+   "end": 1.496
+  },
+  {
+   "w": "hundred",
+   "start": 1.53,
+   "end": 1.871
+  },
+  {
+   "w": "and",
+   "start": 1.871,
+   "end": 2.007
+  },
+  {
+   "w": "twenty",
+   "start": 2.042,
+   "end": 2.314
+  },
+  {
+   "w": "pounds",
+   "start": 2.382,
+   "end": 2.78
+  }
+ ]
+}

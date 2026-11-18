@@ -1,0 +1,27 @@
+{
+ "key": "90580688057a",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "Then... item five.",
+ "duration": 1.096,
+ "words": [
+  {
+   "w": "Then",
+   "start": 0.0,
+   "end": 0.307
+  },
+  {
+   "w": "item",
+   "start": 0.5,
+   "end": 0.784
+  },
+  {
+   "w": "five",
+   "start": 0.795,
+   "end": 1.114
+  }
+ ]
+}

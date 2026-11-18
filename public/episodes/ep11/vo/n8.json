@@ -1,0 +1,72 @@
+{
+ "key": "8daa5253e445",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "If na you, wetin you go do? Buy the coat... or manage?",
+ "duration": 3.091,
+ "words": [
+  {
+   "w": "If",
+   "start": 0.0,
+   "end": 0.17
+  },
+  {
+   "w": "na",
+   "start": 0.216,
+   "end": 0.352
+  },
+  {
+   "w": "you",
+   "start": 0.386,
+   "end": 0.523
+  },
+  {
+   "w": "wetin",
+   "start": 0.784,
+   "end": 1.057
+  },
+  {
+   "w": "you",
+   "start": 1.125,
+   "end": 1.17
+  },
+  {
+   "w": "go",
+   "start": 1.239,
+   "end": 1.341
+  },
+  {
+   "w": "do",
+   "start": 1.409,
+   "end": 1.557
+  },
+  {
+   "w": "Buy",
+   "start": 1.837,
+   "end": 2.03
+  },
+  {
+   "w": "the",
+   "start": 2.076,
+   "end": 2.144
+  },
+  {
+   "w": "coat",
+   "start": 2.201,
+   "end": 2.439
+  },
+  {
+   "w": "or",
+   "start": 2.655,
+   "end": 2.746
+  },
+  {
+   "w": "manage",
+   "start": 2.757,
+   "end": 3.064
+  }
+ ]
+}

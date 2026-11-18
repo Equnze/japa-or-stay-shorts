@@ -1,0 +1,37 @@
+{
+ "key": "05c0b948058d",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "This na my Lagos jacket...",
+ "duration": 1.216,
+ "words": [
+  {
+   "w": "This",
+   "start": 0.0,
+   "end": 0.259
+  },
+  {
+   "w": "na",
+   "start": 0.269,
+   "end": 0.366
+  },
+  {
+   "w": "my",
+   "start": 0.388,
+   "end": 0.496
+  },
+  {
+   "w": "Lagos",
+   "start": 0.506,
+   "end": 0.808
+  },
+  {
+   "w": "jacket",
+   "start": 0.862,
+   "end": 1.228
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "key": "5a163617a76b",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+8%",
+  "pitch": "-2Hz"
+ },
+ "say": "Chinedu! Come see my new ride!",
+ "duration": 1.754,
+ "words": [
+  {
+   "w": "Chinedu",
+   "start": 0.0,
+   "end": 0.509
+  },
+  {
+   "w": "Come",
+   "start": 0.789,
+   "end": 0.997
+  },
+  {
+   "w": "see",
+   "start": 1.032,
+   "end": 1.171
+  },
+  {
+   "w": "my",
+   "start": 1.205,
+   "end": 1.321
+  },
+  {
+   "w": "new",
+   "start": 1.356,
+   "end": 1.483
+  },
+  {
+   "w": "ride",
+   "start": 1.564,
+   "end": 1.772
+  }
+ ]
+}

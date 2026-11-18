@@ -1,0 +1,37 @@
+{
+ "key": "211246f3e06a",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+16%",
+  "pitch": "+8Hz"
+ },
+ "say": "Ehn! London don approve me!",
+ "duration": 1.506,
+ "words": [
+  {
+   "w": "Ehn",
+   "start": 0.0,
+   "end": 0.216
+  },
+  {
+   "w": "London",
+   "start": 0.496,
+   "end": 0.84
+  },
+  {
+   "w": "don",
+   "start": 0.905,
+   "end": 1.034
+  },
+  {
+   "w": "approve",
+   "start": 1.045,
+   "end": 1.347
+  },
+  {
+   "w": "me",
+   "start": 1.379,
+   "end": 1.519
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "key": "bf1c42f73298",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "-10Hz"
+ },
+ "say": "God bless you, my son!",
+ "duration": 1.488,
+ "words": [
+  {
+   "w": "God",
+   "start": 0.0,
+   "end": 0.239
+  },
+  {
+   "w": "bless",
+   "start": 0.307,
+   "end": 0.591
+  },
+  {
+   "w": "you",
+   "start": 0.636,
+   "end": 0.75
+  },
+  {
+   "w": "my",
+   "start": 1.03,
+   "end": 1.166
+  },
+  {
+   "w": "son",
+   "start": 1.212,
+   "end": 1.428
+  }
+ ]
+}

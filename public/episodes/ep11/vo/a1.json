@@ -1,0 +1,47 @@
+{
+ "key": "18df0c363488",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+10%",
+  "pitch": "+0Hz"
+ },
+ "say": "Welcome to London winter! Where your coat?",
+ "duration": 2.296,
+ "words": [
+  {
+   "w": "Welcome",
+   "start": 0.0,
+   "end": 0.375
+  },
+  {
+   "w": "to",
+   "start": 0.443,
+   "end": 0.534
+  },
+  {
+   "w": "London",
+   "start": 0.568,
+   "end": 0.909
+  },
+  {
+   "w": "winter",
+   "start": 0.989,
+   "end": 1.307
+  },
+  {
+   "w": "Where",
+   "start": 1.587,
+   "end": 1.78
+  },
+  {
+   "w": "your",
+   "start": 1.837,
+   "end": 1.927
+  },
+  {
+   "w": "coat",
+   "start": 1.996,
+   "end": 2.234
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "key": "0fa3d5c9aab7",
+ "voice": {
+  "voice": "en-NG-AbeoNeural",
+  "rate": "+10%",
+  "pitch": "-6Hz"
+ },
+ "say": "She got the visa... he didn't.",
+ "duration": 1.505,
+ "words": [
+  {
+   "w": "She",
+   "start": 0.0,
+   "end": 0.182
+  },
+  {
+   "w": "got",
+   "start": 0.239,
+   "end": 0.375
+  },
+  {
+   "w": "the",
+   "start": 0.398,
+   "end": 0.466
+  },
+  {
+   "w": "visa",
+   "start": 0.489,
+   "end": 0.807
+  },
+  {
+   "w": "he",
+   "start": 1.023,
+   "end": 1.114
+  },
+  {
+   "w": "didn't",
+   "start": 1.17,
+   "end": 1.568
+  }
+ ]
+}

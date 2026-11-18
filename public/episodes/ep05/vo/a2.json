@@ -1,0 +1,42 @@
+{
+ "key": "d425683fcabb",
+ "voice": {
+  "voice": "en-NG-EzinneNeural",
+  "rate": "+14%",
+  "pitch": "+6Hz"
+ },
+ "say": "Japa with me... or lose me.",
+ "duration": 1.492,
+ "words": [
+  {
+   "w": "Japa",
+   "start": 0.0,
+   "end": 0.307
+  },
+  {
+   "w": "with",
+   "start": 0.34,
+   "end": 0.537
+  },
+  {
+   "w": "me",
+   "start": 0.548,
+   "end": 0.768
+  },
+  {
+   "w": "or",
+   "start": 0.998,
+   "end": 1.085
+  },
+  {
+   "w": "lose",
+   "start": 1.096,
+   "end": 1.327
+  },
+  {
+   "w": "me",
+   "start": 1.349,
+   "end": 1.469
+  }
+ ]
+}
